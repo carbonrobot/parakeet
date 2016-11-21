@@ -7,6 +7,8 @@ import { JoinPageComponent } from './components/join.component';
 import { HostPageComponent } from './components/host.component';
 import { PlayerPageComponent } from './components/player.component';
 
+import { SocketService } from '../shared/services/socketio.service';
+
 const routeConfig: Routes = [
     { path: 'create', component: CreatePageComponent },
     { path: 'join', component: JoinPageComponent },
@@ -24,6 +26,9 @@ const routeConfig: Routes = [
         JoinPageComponent,
         HostPageComponent,
         PlayerPageComponent
+    ],
+    providers: [
+        SocketService
     ]
 })
 export class GameModule { }

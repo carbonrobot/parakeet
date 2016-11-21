@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/carbonrobot/parakeet#readme",
   "dependencies": {
+    "@types/socket.io-client": "^1.4.28",
     "glob": "^7.1.1",
     "good": "^7.0.2",
     "handlebars": "^4.0.6",
     "hapi": "^15.2.0",
     "inert": "^4.0.2",
+    "socket.io": "^1.6.0",
+    "socket.io-client": "^1.6.0",
     "vision": "^4.1.0"
   },
   "devDependencies": {
