@@ -1,17 +1,17 @@
 'use strict';
 
+const glob = require('glob');
+
 exports.register = function (server, opts, next) {
 
-    // register routes
-    server.route({
-        method: 'GET',
-        path: '/api',
-        handler: function(req, res){
-            res.ok();
-        }
-    });
+    // register api routes
+    glob('./routes/*.routes.js', { cwd: __dirname }, function(err, matches) {
+        matches.forEach(function(filepath) {
+            server.route(require(filepath));
+        });
 
-    next();
+        return next();
+    });
 
 };
 

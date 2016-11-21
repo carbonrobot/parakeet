@@ -19,15 +19,6 @@ exports.register = function(server, opts, next) {
             isCached: false
         });
 
-        // register routes
-        server.route({
-            method: 'GET',
-            path: '/',
-            handler: {
-                view: 'index'
-            }
-        });
-        
         // assets
         server.route({
             method: 'GET',
@@ -42,6 +33,15 @@ exports.register = function(server, opts, next) {
                 cache: {
                     expiresIn: 1000 * 60 * 60 * 24 * 365 * 10 // 10yrs
                 }
+            }
+        });
+
+        // register routes
+        server.route({
+            method: 'GET',
+            path: '/{path*}',
+            handler: {
+                view: 'index'
             }
         });
 

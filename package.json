@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/carbonrobot/parakeet#readme",
   "dependencies": {
+    "glob": "^7.1.1",
     "good": "^7.0.2",
     "handlebars": "^4.0.6",
     "hapi": "^15.2.0",
