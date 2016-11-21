@@ -66,5 +66,6 @@ gulp.task('run', function() {
 // Watches the given file paths, and if it detects changes, re-runs the specified gulp tasks 
 gulp.task('watch', function() {
     gulp.watch('src/app/**/*.js', ['app']);
+    gulp.watch('src/app/**/*.ts', ['app']);
     gulp.watch('src/app/**/*.html', ['content']);
 });

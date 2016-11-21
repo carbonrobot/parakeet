@@ -1,14 +1,13 @@
 module.exports = {  
-  //entry: './app.ts',
   output: {
     filename: 'app.js'
   },
   resolve: {
-    extensions: ['', '.webpack.js', '.web.js', '.ts', '.js']
+    extensions: ['', '.ts', '.js']
   },
   module: {
     loaders: [
-      { test: /\.ts$/, loader: 'ts-loader' }
+      { test: /\.ts$/, loaders: ['ts-loader'] }
     ]
   }
 }
