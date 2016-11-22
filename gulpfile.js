@@ -48,7 +48,7 @@ gulp.task('app', function() {
 
 // Copies all server side html content to the output folder
 gulp.task('content', function() {
-    return gulp.src(['src/app/**/*.html'])
+    return gulp.src(['src/app/**/*.html', 'src/app/**/*.css'])
         .pipe(gulp.dest('public'));
 });
 

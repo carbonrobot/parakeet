@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { SocketService } from '../../shared/services/socketio.service';
+import { SocketService } from '../services/socketio.service';
 
 @Component({
     template: `

@@ -1,26 +1,41 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
+import { GameService } from '../services/game.service';
+
 @Component({
-    template: '<h2>Create Game</h2><p>{{newGameKey}}</p><button (click)="start()">Start</button>'
+    template: `
+        <h1 class="cover-heading">Create Game</h1>
+        <p class="lead">Enter team names and click start to create a new game.</p>
+        <form class="form-horizontal col-sm-offset-2">
+            <div class="form-group">
+                <label for="team1Name" class="col-sm-2 control-label">Team 1</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="team1Name" [(ngModel)]="team1Name"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="team2Name" class="col-sm-2 control-label">Team 2</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="team2Name" [(ngModel)]="team2Name"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-10">
+                    <a class="btn btn-success" (click)="start()">Start Game</a>
+                </div>
+            </div>
+        </form>
+    `
 })
 export class CreatePageComponent {
-    private KEYCHARS: string = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    private team1Name: string = 'Pigs';
+    public team2Name: string = 'Cows';
 
-    public newGameKey: string;
-
-    constructor(private router: Router) {
-        // TODO: we should confirm this is not already used by another host
-        this.newGameKey = this.randomString(5, this.KEYCHARS);
-     }
+    constructor(private router: Router, private service: GameService) {}
 
     public start() {
-        this.router.navigate(['/host', this.newGameKey]);
-    }
-
-    private randomString(length, chars) {
-        var result = '';
-        for (var i = length; i > 0; --i) result += chars[Math.round(Math.random() * (chars.length - 1))];
-        return result;
+        this.service.startNewGame(this.team1Name, this.team2Name);
+        this.router.navigate(['/host', this.service.data.key]);
     }
 }

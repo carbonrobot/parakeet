@@ -8,8 +8,9 @@ import { JoinPageComponent } from './components/join.component';
 import { HostPageComponent } from './components/host.component';
 import { PlayerPageComponent } from './components/player.component';
 
-import { SocketService } from '../shared/services/socketio.service';
-import { PuzzleService } from '../shared/services/puzzle.service';
+import { SocketService } from './services/socketio.service';
+import { GameService } from './services/game.service';
+import { PuzzleService } from './services/puzzle.service';
 
 const routeConfig: Routes = [
     { path: 'create', component: CreatePageComponent },
@@ -32,7 +33,8 @@ const routeConfig: Routes = [
     ],
     providers: [
         SocketService,
-        PuzzleService
+        PuzzleService,
+        GameService
     ]
 })
 export class GameModule { }

@@ -7,14 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <base href="/">
     <title>Parakeet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/styles/styles.css">
 </head>
 
 <body>
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand"><a href="/">Parakeet</a></h3>
+                        <!--<nav>
+                            <ul class="nav masthead-nav">
+                                <li class="active"><a href="#">Home</a></li>
+                            </ul>
+                        </nav>-->
+                    </div>
+                </div>
 
-    <parakeet-app></parakeet-app>
+                <div class="inner cover">
+                    <parakeet-app></parakeet-app>
+                </div>
+
+                <div class="mastfoot">
+                    <div class="inner">
+                        <p>Open Source App created by <a href="https://github.com/carbonrobot/parakeet">carbonrobot</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="public/scripts/vendor.min.js"></script>
     <script src="public/scripts/app.js"></script>
-
 </body>
 </html>

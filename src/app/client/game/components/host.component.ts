@@ -1,25 +1,22 @@
-import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { SocketService } from '../../shared/services/socketio.service';
-import { PuzzleService } from '../../shared/services/puzzle.service';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+
+import { SocketService } from '../services/socketio.service';
+import { GameService } from '../services/game.service';
+
+import { Game } from '../models/game.model';
 
 @Component({
     template: `
-        <h2>Host</h2>
-        <p>{{gameKey}}</p>
+        <h1 class="cover-heading">{{gameData.team1}} VS {{gameData.team2}}</h1>
+        <p class="lead">Provide this key <strong>{{gameData.key}}</strong> to another browser window to display the gameboard.</p>
         <div>
-            <label for="team1Name">Team 1</label>
-            <input type="text" name="team1Name" [(ngModel)]="team1Name"/>
+            <a class="btn btn-default" (click)="newPuzzle()">New Puzzle</a>
         </div>
-        <div>
-            <label for="team2Name">Team 2</label>
-            <input type="text" name="team2Name" [(ngModel)]="team2Name"/>
-        </div>
-        <button (click)="start()">Start New Puzzle</button>
-        <div *ngIf="gameData">
-            <p>{{gameData.question}}</p>
+        <div *ngIf="gameData && gameData.puzzle">
+            <p>{{gameData.puzzle.question}}</p>
             <div>
-                <div *ngFor="let item of gameData.keys let idx=index">
+                <div *ngFor="let item of gameData.puzzle.keys let idx=index">
                     <div>{{item.d}}</div>
                     <div>{{item.p}}</div>
                     <div>
@@ -32,56 +29,48 @@ import { PuzzleService } from '../../shared/services/puzzle.service';
         </div>
     `
 })
-export class HostPageComponent {
-    public gameKey: string;
-    public gameData: any;
-    public team1Name: string = 'Pigs';
-    public team2Name: string = 'Cows';
+export class HostPageComponent implements OnInit {
+
+    public gameData: Game;
 
     private routeSub: any;
 
-    constructor(
-        private route: ActivatedRoute,
+    constructor(private route: ActivatedRoute,
+        private router: Router,
         private socket: SocketService,
-        private service: PuzzleService) {
+        private service: GameService) {
 
-        this.routeSub = route.params.subscribe(params => {
-            this.gameKey = params['key'];
-        });
-
-        // TODO: create 'rooms' so only clients with the same key get updates
-        this.socket
-            .get(this.gameKey)
-            .subscribe(data => {
-                //console.log(data);
-            }, console.log);
+        if (!this.service.data) {
+            this.service.startNewGame();
+        }
+        this.gameData = service.data;
     }
 
-    start() {
-        this.service.getPuzzle().subscribe(data => {
-            this.gameData = data;
-
-            // add team names
-            // TODO: we should be able to keep a running score across multiple puzzles
-            this.gameData.gameKey = this.gameKey;
-            this.gameData.team1Name = this.team1Name;
-            this.gameData.team2Name = this.team2Name;
-
+    newPuzzle() {
+        this.service.getNewPuzzle().then(() => {
             this.updatePlayers.call(this);
         });
     }
 
-    select(idx: number, team: number){
-        this.gameData.keys[idx].team = team;
+    select(idx: number, team: number) {
+        this.gameData.puzzle.keys[idx].team = team;
         this.updatePlayers.call(this);
-    }
-
-    private updatePlayers(){
-        this.socket.update(this.gameKey, this.gameData);
     }
 
     ngOnDestroy() {
         this.routeSub.unsubscribe();
     }
-    
+
+    ngOnInit() {
+        // TODO: create 'rooms' so only clients with the same key get updates
+        this.socket.get(this.gameData.key)
+            .subscribe(data => {
+                //console.log(data);
+            }, console.log);
+    }
+
+    private updatePlayers() {
+        this.socket.update(this.gameData.key, this.gameData);
+    }
+
 }
