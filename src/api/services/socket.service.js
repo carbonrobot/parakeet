@@ -9,8 +9,11 @@ function register(httpConfig){
         console.log('client connected');     
 
         socket.on('notify', data => {
-            console.log('server recvd notify', data);
-            io.emit('notification', { msg: data });    
+            io.emit('notification', { data: data });    
+        });
+
+        socket.on('update', data => {
+            io.emit('update', { data: data });
         });
 
     });

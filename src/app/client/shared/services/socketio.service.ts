@@ -9,10 +9,6 @@ export class SocketService {
 
     constructor() { }
 
-    notify(message: string) {
-        this.socket.emit('notify', { msg: message });
-    }
-
     get(name: string): Observable<any> {
         this.name = name;
         this.socket = io();
@@ -23,18 +19,19 @@ export class SocketService {
         });
 
         let o = new Observable((observer: any) => {
-            this.socket.on("notification", console.log);
             this.socket.on("notification", item => observer.next({ action: "notification", item: item }));
             this.socket.on("update", item => observer.next({ action: "update", item: item }));
             return () => this.socket.close();
         });
         return o;
+    }
 
-        // return Observable.create((observer: any) => {
-        //     this.socket.on("notification", item => observer.next({ action: "notification", item: item }));
-        //     this.socket.on("update", item => observer.next({ action: "update", item: item }));
-        //     return () => this.socket.close();
-        // });
+    notify(message: string) {
+        this.socket.emit('notify', { msg: message });
+    }
+
+    update(key: string, data: any) {
+        this.socket.emit('update', data);
     }
 
     private connect() {

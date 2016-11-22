@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { CreatePageComponent } from './components/create.component';
 import { JoinPageComponent } from './components/join.component';
@@ -8,6 +9,9 @@ import { HostPageComponent } from './components/host.component';
 import { PlayerPageComponent } from './components/player.component';
 
 import { SocketService } from '../shared/services/socketio.service';
+import { PuzzleService } from '../shared/services/puzzle.service';
+
+import { PuzzleComponent } from '../shared/components/puzzle.component';
 
 const routeConfig: Routes = [
     { path: 'create', component: CreatePageComponent },
@@ -19,16 +23,19 @@ const routeConfig: Routes = [
 @NgModule({
     imports: [
         FormsModule,
-        RouterModule.forChild(routeConfig)
+        RouterModule.forChild(routeConfig),
+        BrowserModule
     ],
     declarations: [
         CreatePageComponent,
         JoinPageComponent,
         HostPageComponent,
-        PlayerPageComponent
+        PlayerPageComponent,
+        PuzzleComponent
     ],
     providers: [
-        SocketService
+        SocketService,
+        PuzzleService
     ]
 })
 export class GameModule { }
