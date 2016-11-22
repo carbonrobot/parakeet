@@ -23,9 +23,9 @@ import { PuzzleService } from '../../shared/services/puzzle.service';
                     <div>{{item.d}}</div>
                     <div>{{item.p}}</div>
                     <div>
-                        <button (click)="select(idx, 1)" [disabled]="item.team">{{gameData.team1Name}}</button>
-                        <button (click)="select(idx, 2)" [disabled]="item.team">{{gameData.team2Name}}</button>
-                        <button (click)="select(idx, 0)" [disabled]="item.team">X</button>
+                        <button (click)="select(idx, 1)" [disabled]="item.team === 1">{{gameData.team1Name}}</button>
+                        <button (click)="select(idx, 2)" [disabled]="item.team === 2">{{gameData.team2Name}}</button>
+                        <button (click)="select(idx, 0)" [disabled]="item.team === 0">X</button>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,6 @@ export class HostPageComponent {
     public team2Name: string = 'Cows';
 
     private routeSub: any;
-    private serviceSub: any;
 
     constructor(
         private route: ActivatedRoute,
@@ -59,7 +58,7 @@ export class HostPageComponent {
     }
 
     start() {
-        this.serviceSub = this.service.getPuzzle().subscribe(data => {
+        this.service.getPuzzle().subscribe(data => {
             this.gameData = data;
 
             // add team names
@@ -68,13 +67,13 @@ export class HostPageComponent {
             this.gameData.team1Name = this.team1Name;
             this.gameData.team2Name = this.team2Name;
 
-            this.updatePlayers();
+            this.updatePlayers.call(this);
         });
     }
 
     select(idx: number, team: number){
-        this.gameData[idx].team = team;
-        this.updatePlayers();
+        this.gameData.keys[idx].team = team;
+        this.updatePlayers.call(this);
     }
 
     private updatePlayers(){
@@ -83,7 +82,6 @@ export class HostPageComponent {
 
     ngOnDestroy() {
         this.routeSub.unsubscribe();
-        this.serviceSub.unsubscribe();
     }
     
 }

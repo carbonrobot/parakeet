@@ -4,21 +4,29 @@ import { SocketService } from '../../shared/services/socketio.service';
 
 @Component({
     template: `
-        <div>
-            <div>{{gameData.team1Name}}</div>
-            <div>VS</div>
-            <div>{{gameData.team2Name}}</div>
-        </div>
+        <p *ngIf="!gameData">Waiting for Host to begin {{gameKey}}</p>
         <div *ngIf="gameData">
-            <p>{{gameData.question}}</p>
             <div>
-                <div *ngFor="let item of gameData.keys let idx=index">
-                    <div>{{item.d}}</div>
-                    <div>{{item.p}}</div>
+                <div>{{gameData ? gameData.team1Name : ''}}</div>
+                <div>VS</div>
+                <div>{{gameData ? gameData.team2Name : ''}}</div>
+            </div>
+            <div>
+                <p>{{gameData.question}}</p>
+                <div>
+                    <div *ngFor="let item of gameData.keys let idx=index">
+                        <div *ngIf="item.team">
+                            <div>{{item.d}}</div>
+                            <div>{{item.p}}</div>
+                        <div>
+                        <div *ngIf="!item.team">
+                            <div>&nbsp;</div>
+                            <div>$nbsp;</div>
+                        <div>
+                    </div>
                 </div>
             </div>
         </div>
-        <p>{{gameKey}}</p>
     `
 })
 export class PlayerPageComponent {
