@@ -11,8 +11,6 @@ import { PlayerPageComponent } from './components/player.component';
 import { SocketService } from '../shared/services/socketio.service';
 import { PuzzleService } from '../shared/services/puzzle.service';
 
-import { PuzzleComponent } from '../shared/components/puzzle.component';
-
 const routeConfig: Routes = [
     { path: 'create', component: CreatePageComponent },
     { path: 'join', component: JoinPageComponent },
@@ -30,8 +28,7 @@ const routeConfig: Routes = [
         CreatePageComponent,
         JoinPageComponent,
         HostPageComponent,
-        PlayerPageComponent,
-        PuzzleComponent
+        PlayerPageComponent
     ],
     providers: [
         SocketService,
