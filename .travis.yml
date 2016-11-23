@@ -4,8 +4,10 @@ install: npm install
 script: gulp build
 deploy:
   provider: heroku
+  skip_cleanup: true
   api_key:
     secure: U/Yo5C9bZhQbLvbX7ctCdtTbHMtHSah1WJDyHGlcf1PAOYREQPXlRpODf8GyjoRV3jsxOfP8OFd8vv13DvQda+UaSzf/ycbDkoY6N3EorQfZ6NCRTaAKmTRVwq4dmNiepyp3QgmXgT5H41DjRHdD7ZXO7agA+op9ggy78swbzGAMbdtPU6/ADE4WfnODHGgBX2KYW1KmyeX+bOq2+sdGutEcP5KtYSuCy7/p8Oulaz8enINsTUaFtRHGFllbf+WfuIQbeEqw+4XZIV+ltE1xFKvTFHbX9FVWovg68G0dSZixy1cy712QtXGvz7BQGDM684NZ4sYH2pUowey4fKkzr9cmftIy0uq+Um4hGPOlSYSk3G3S/CKQ+yZsAe/GDkWBRpu9lwgDUM73O8xG6lwJt9SLxIwUBA9OQ3NfWp1csAMgRysL3eoUO751GxvP+VVYtQLNv84xPzxdfkEedmsZnUnaNog5e3kozP8nMj4Eg88M0IE7o70Vh6Pna0/1m+LOkqLHt6dgeWnGEfk/pi8M1wHBLxobcMVlDLyltMeMUv2i0vIRm/acZqB8N2jA66s+ITr16gF8nxkmituPmMuIETBOAYPaa0flHXhOnD+SwtHWatv4+sL5XqS/ZL7YuQDaZHip8SVB8ZFk138px3KqtFzwBV1OB71KM3x8oj9fRFw=
   app: carbonrobot-parakeet
   on:
     repo: carbonrobot/parakeet
+  
