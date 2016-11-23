@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
                 <label class="sr-only" for="gameKey">Email address</label>
                 <input class="form-control upper" [(ngModel)]="gameKey" type="text" name="gameKey" />
             </div>
-            <button type="button" class="btn btn-success" (click)="join()" [disabled]="gameKey">Join Game</button>
+            <button type="button" class="btn btn-success" (click)="join()" [disabled]="!gameKey">Join Game</button>
         </form>
     `
 })
