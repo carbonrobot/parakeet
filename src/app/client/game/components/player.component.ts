@@ -45,10 +45,10 @@ export class PlayerPageComponent {
     }
 
     private onNotification(item) {
-        console.log('Notification received:', item.data);
+        console.log('Notification received:', item);
     }
 
     private onUpdate(item) {
-        this.gameData = item.data;
+        this.gameData = item;
     }
 }

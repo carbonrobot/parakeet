@@ -12,11 +12,13 @@ export class SocketService {
     get(name: string): Observable<any> {
         this.name = name;
         this.socket = io();
+        
+        // join a room
+        this.socket.emit('join', this.name);
+
         this.socket.on("connect", () => this.connect());
         this.socket.on("disconnect", () => this.disconnect());
-        this.socket.on("error", (error: string) => {
-            console.log(`[socket, error]: "${error}"`);
-        });
+        this.socket.on("error", (err: string) => this.onError);
 
         let o = new Observable((observer: any) => {
             this.socket.on("notification", item => observer.next({ action: "notification", item: item }));
@@ -27,18 +29,22 @@ export class SocketService {
     }
 
     notify(message: string) {
-        this.socket.emit('notify', { msg: message });
+        this.socket.emit('notify', { room: this.name, data: message });
     }
 
-    update(key: string, data: any) {
-        this.socket.emit('update', data);
+    update(data: any) {
+        this.socket.emit('update', { room: this.name, data: data });
     }
 
     private connect() {
-        console.log(`Connected to "${this.name}"`);
+        console.log(`[socket] connected to "${this.name}"`);
     }
 
     private disconnect() {
-        console.log(`Disconnected from "${this.name}"`);
+        console.log(`[socket] disconnected from "${this.name}"`);
+    }
+
+    private onError(error: string){
+        console.log(`[socket, error]: "${error}"`);
     }
 }

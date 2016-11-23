@@ -62,15 +62,11 @@ export class HostPageComponent implements OnInit {
     }
 
     ngOnInit() {
-        // TODO: create 'rooms' so only clients with the same key get updates
-        this.socket.get(this.gameData.key)
-            .subscribe(data => {
-                //console.log(data);
-            }, console.log);
+        this.socket.get(this.gameData.key);
     }
 
     private updatePlayers() {
-        this.socket.update(this.gameData.key, this.gameData);
+        this.socket.update(this.gameData);
     }
 
 }
