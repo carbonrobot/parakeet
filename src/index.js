@@ -7,7 +7,7 @@ const app = require('./app');
 
 const server = new Hapi.Server();
 server.connection({
-        port: 3400,
+        port: process.env.PORT || 3400,
         router: {
             stripTrailingSlash: true
         },
