@@ -13,17 +13,17 @@ import { Game } from '../models/game.model';
         <div>
             <a class="btn btn-default" (click)="newPuzzle()">New Puzzle</a>
         </div>
-        <div *ngIf="gameData && gameData.puzzle">
+        <div *ngIf="gameData && gameData.puzzle" class="container-fluid">
             <p>{{gameData.puzzle.question}}</p>
-            <div>
-                <div *ngFor="let item of gameData.puzzle.keys let idx=index">
-                    <div>{{item.d}}</div>
-                    <div>{{item.p}}</div>
-                    <div>
-                        <button (click)="select(idx, 1)" [disabled]="item.team === 1">{{gameData.team1Name}}</button>
-                        <button (click)="select(idx, 2)" [disabled]="item.team === 2">{{gameData.team2Name}}</button>
-                        <button (click)="select(idx, 0)" [disabled]="item.team === 0">X</button>
+            <div class="row">
+                <div *ngFor="let item of gameData.puzzle.keys let idx=index" class="col-sm-12 puzzle-box">
+                    <div class="puzzle-answer">{{item.d}}</div>
+                    <div class="puzzle-actions">
+                        <button class="btn btn-sm btn-default" (click)="select(idx, 1)" [disabled]="item.team === 1">{{gameData.team1}}</button>
+                        <button class="btn btn-sm btn-default" (click)="select(idx, 2)" [disabled]="item.team === 2">{{gameData.team2}}</button>
+                        <button class="btn btn-sm btn-default" (click)="select(idx, 0)" [disabled]="item.team === 0">X</button>
                     </div>
+                    <div class="puzzle-pct">{{item.p}}</div>
                 </div>
             </div>
         </div>

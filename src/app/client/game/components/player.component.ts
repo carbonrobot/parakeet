@@ -6,23 +6,13 @@ import { SocketService } from '../services/socketio.service';
     template: `
         <p *ngIf="!gameData">Waiting for Host to begin {{gameKey}}</p>
         <div *ngIf="gameData">
-            <div>
-                <div>{{gameData ? gameData.team1Name : ''}}</div>
-                <div>VS</div>
-                <div>{{gameData ? gameData.team2Name : ''}}</div>
-            </div>
-            <div>
-                <p>{{gameData.question}}</p>
-                <div>
-                    <div *ngFor="let item of gameData.keys let idx=index">
-                        <div *ngIf="item.team">
-                            <div>{{item.d}}</div>
-                            <div>{{item.p}}</div>
-                        <div>
-                        <div *ngIf="!item.team">
-                            <div>&nbsp;</div>
-                            <div>$nbsp;</div>
-                        <div>
+            <h1 class="cover-heading">{{gameData.team1}} VS {{gameData.team2}}</h1>
+            <div class="container-fluid">
+                <p class="lead">{{gameData.puzzle.question}}</p>
+                <div class="row">
+                    <div *ngFor="let item of gameData.puzzle.keys let idx=index" class="col-sm-6 puzzle-box">
+                        <div class="puzzle-answer"><span *ngIf="item.team">{{item.d}}</span>&nbsp;</div>
+                        <div class="puzzle-pct"><span *ngIf="item.team">{{item.p}}</span>&nbsp;</div>
                     </div>
                 </div>
             </div>

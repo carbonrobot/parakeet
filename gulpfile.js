@@ -67,5 +67,5 @@ gulp.task('run', function() {
 gulp.task('watch', function() {
     gulp.watch('src/app/**/*.js', ['app']);
     gulp.watch('src/app/**/*.ts', ['app']);
-    gulp.watch('src/app/**/*.html', ['content']);
+    gulp.watch(['src/app/**/*.html', 'src/app/**/*.css'] ['content']);
 });

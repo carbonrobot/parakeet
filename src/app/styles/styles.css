@@ -161,3 +161,36 @@ body {
     width: 700px;
   }
 }
+
+/**
+Puzzle sheet
+*/
+.puzzle-box {
+    height: 50px;
+    background: #4a6f52;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1.5em;
+    border-radius: 4px;
+}
+.puzzle-box:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+.puzzle-answer {
+    float: left;
+}
+.puzzle-pct {
+    float: right;
+    width: 60px;
+}
+.puzzle-actions {
+    float: right;
+    width: 200px;
+    margin-top: -2px;
+}
+.puzzle-actions button {
+    display: inline-block;
+}
