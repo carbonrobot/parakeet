@@ -7,6 +7,27 @@ import { SocketService } from '../services/socketio.service';
         <p *ngIf="!gameData">Waiting for Host to begin {{gameKey}}</p>
         <div *ngIf="gameData">
             <h1 class="cover-heading">{{gameData.team1}} VS {{gameData.team2}}</h1>
+            <div class="table-responsive">
+                <table class="table borderless table-condensed">
+                    <tbody>
+                        <tr>
+                            <td class="strike-zone">
+                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team1.strikes >= 1" />
+                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team1.strikes >= 2" />
+                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team1.strikes >= 3" />
+                            </td>
+                            <td class="biggie">{{gameData.puzzle.team1.score}}</td>
+                            <td>&nbsp;</td>
+                            <td class="text-right biggie">{{gameData.puzzle.team2.score}}</td>
+                            <td class="text-right strike-zone">
+                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team2.strikes >= 1" />
+                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team2.strikes >= 2" />
+                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team2.strikes >= 3" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <div class="container-fluid">
                 <p class="lead">{{gameData.puzzle.question}}</p>
                 <div class="row">
@@ -17,11 +38,13 @@ import { SocketService } from '../services/socketio.service';
                 </div>
             </div>
         </div>
+        <div class="player-strike" *ngIf="strike" [class.double]="strike == 2" [class.triple]="strike == 3"></div>
     `
 })
 export class PlayerPageComponent {
     public gameKey: string;
     public gameData: any;
+    public strike: number;
 
     private routeSub: any;
     private socketSub: any;
@@ -36,6 +59,7 @@ export class PlayerPageComponent {
             .subscribe(data => {
                 if (data.action === 'notification') this.onNotification(data.item);
                 if (data.action === 'update') this.onUpdate(data.item);
+                if (data.action === 'strike') this.onStrike(data.item);
             }, console.log);
     }
 
@@ -50,5 +74,12 @@ export class PlayerPageComponent {
 
     private onUpdate(item) {
         this.gameData = item;
+    }
+
+    private onStrike(item){
+        this.strike = item;
+        setTimeout(() => {
+            this.strike = null;
+        }, 5000);
     }
 }

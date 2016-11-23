@@ -26,6 +26,11 @@ export class GameService {
 
     public getNewPuzzle() {
         return this.service.getPuzzle().toPromise().then(data => {
+            
+            // puzzle scoring
+            data.team1 = { strikes: 0, score: 0 };
+            data.team2 = { strikes: 0, score: 0 };
+
             this.data.puzzle = data;
         });
     }

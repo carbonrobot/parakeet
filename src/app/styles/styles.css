@@ -34,6 +34,11 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
+.table { text-align: left; }
+.borderless td, .borderless th {
+    border: none !important;
+}
+.biggie { font-size: 42px; }
 
 /*
  * Tools
@@ -191,4 +196,43 @@ Puzzle sheet
 }
 .puzzle-actions button {
     display: inline-block;
+}
+
+/**
+ * Strike
+ */
+.strike {
+    width: 50px;
+    height: 50px;
+}
+.strike-zone {
+    width: 170px;
+}
+
+/**
+ * Big Strike
+ */
+.player-strike {
+    background: url(/public/strike.png);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-position: cover;
+    background-repeat: repeat-x;
+    height: 420px;
+    margin-top: -210px;
+    width: 420px;
+    margin-left: -210px;
+}
+
+.player-strike.double {
+    width: 840px;
+    margin-left: -420px;
+}
+
+.player-strike.triple {
+    background-size: 240px;
+    width: 720px;
+    margin-left: -360px;
+    margin-top: -130px;
 }

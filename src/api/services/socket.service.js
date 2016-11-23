@@ -12,12 +12,15 @@ function register(httpConfig){
         });
 
         socket.on('update', data => {
-            console.log('updating', data.room);
             io.to(data.room).emit('update', data.data);
         });
 
+        socket.on('strike', data => {
+            console.log('strikr', data.room, data.data);
+            io.to(data.room).emit('strike', data.data);
+        });
+
         socket.on('join', room => {
-            console.log('joining room', room);
             socket.join(room);
         });
 
