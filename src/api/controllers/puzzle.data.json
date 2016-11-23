@@ -534,5 +534,2479 @@
                 "p": 6
             }
         ]
+    },
+    {
+        "question": "Name an occupation that is more admired than you think it deserves to be.",
+        "keys": [
+            {
+                "d": "Military",
+                "p": 16
+            },
+            {
+                "d": "Athlete",
+                "p": 15
+            },
+            {
+                "d": "Politician",
+                "p": 11
+            },
+            {
+                "d": "Lawyer",
+                "p": 10
+            },
+            {
+                "d": "Actor",
+                "p": 10
+            }
+        ]
+    },
+    {
+        "question": "Name a product people put all over their bodies.",
+        "keys": [
+            {
+                "d": "Moisturizer/Lotion",
+                "p": 51
+            },
+            {
+                "d": "Soap",
+                "p": 20
+            },
+            {
+                "d": "Sunscreen",
+                "p": 12
+            },
+            {
+                "d": "Bodywash",
+                "p": 4
+            },
+            {
+                "d": "Clothes",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a childhood fear that is carried into adulthood.",
+        "keys": [
+            {
+                "d": "Dark",
+                "p": 26
+            },
+            {
+                "d": "Spiders",
+                "p": 25
+            },
+            {
+                "d": "Heights",
+                "p": 17
+            },
+            {
+                "d": "Clowns",
+                "p": 12
+            },
+            {
+                "d": "Death",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something that makes you feel really good.",
+        "keys": [
+            {
+                "d": "Sexy Times",
+                "p": 29
+            },
+            {
+                "d": "Sleep",
+                "p": 14
+            },
+            {
+                "d": "Exercise",
+                "p": 10
+            },
+            {
+                "d": "Helping Others",
+                "p": 7
+            },
+            {
+                "d": "Take a shower",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Besides weiners, Name something every hot dog vendor has.",
+        "keys": [
+            {
+                "d": "Mustard",
+                "p": 32
+            },
+            {
+                "d": "Buns",
+                "p": 30
+            },
+            {
+                "d": "Ketchup",
+                "p": 26
+            },
+            {
+                "d": "Relish",
+                "p": 6
+            },
+            {
+                "d": "Drinks",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Besides Food, name something people will buy even if the price triples.",
+        "keys": [
+            {
+                "d": "Gas",
+                "p": 59
+            },
+            {
+                "d": "Toilet Paper",
+                "p": 8
+            },
+            {
+                "d": "Clothes",
+                "p": 6
+            },
+            {
+                "d": "Electronics",
+                "p": 5
+            },
+            {
+                "d": "Alcohol",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a part time job that kids do to make money.",
+        "keys": [
+            {
+                "d": "Mow Lawns/Yard Work",
+                "p": 20
+            },
+            {
+                "d": "Newspaper Route",
+                "p": 19
+            },
+            {
+                "d": "Food Services",
+                "p": 18
+            },
+            {
+                "d": "Babysitting",
+                "p": 17
+            },
+            {
+                "d": "Lemonade Stand",
+                "p": 9
+            }
+        ]
+    },
+    {
+        "question": "Name a day that all kids look forward to.",
+        "keys": [
+            {
+                "d": "Christmas",
+                "p": 35
+            },
+            {
+                "d": "Saturday",
+                "p": 18
+            },
+            {
+                "d": "Birthday",
+                "p": 16
+            },
+            {
+                "d": "End of school/Summer Vacation",
+                "p": 12
+            },
+            {
+                "d": "Friday",
+                "p": 10
+            }
+        ]
+    },
+    {
+        "question": "Name something people use to keep burglars away.",
+        "keys": [
+            {
+                "d": "Security System",
+                "p": 44
+            },
+            {
+                "d": "Dog",
+                "p": 28
+            },
+            {
+                "d": "Weapons",
+                "p": 16
+            },
+            {
+                "d": "Lock your doors",
+                "p": 7
+            },
+            {
+                "d": "Leave lights on",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something people borrow from their coworkers at work.",
+        "keys": [
+            {
+                "d": "Pens & Pencils",
+                "p": 58
+            },
+            {
+                "d": "Stapler",
+                "p": 25
+            },
+            {
+                "d": "Money",
+                "p": 4
+            },
+            {
+                "d": "Time",
+                "p": 3
+            },
+            {
+                "d": "Food",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a piece of good news that people like to tell other people.",
+        "keys": [
+            {
+                "d": "Pregnant/Birth Announcement",
+                "p": 54
+            },
+            {
+                "d": "Engaged",
+                "p": 16
+            },
+            {
+                "d": "Wedding",
+                "p": 9
+            },
+            {
+                "d": "Got a raise",
+                "p": 7
+            },
+            {
+                "d": "New Job",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name the most important invention of all time.",
+        "keys": [
+            {
+                "d": "Electricity",
+                "p": 18
+            },
+            {
+                "d": "Wheel",
+                "p": 17
+            },
+            {
+                "d": "Internet",
+                "p": 10
+            },
+            {
+                "d": "Printing Press",
+                "p": 8
+            },
+            {
+                "d": "Computer",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name something a woman might have a special hiding place for.",
+        "keys": [
+            {
+                "d": "Sex Toys",
+                "p": 33
+            },
+            {
+                "d": "Tampons",
+                "p": 23
+            },
+            {
+                "d": "Jewelry",
+                "p": 11
+            },
+            {
+                "d": "Money",
+                "p": 7
+            },
+            {
+                "d": "Chocolate",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something people have installed by professionals.",
+        "keys": [
+            {
+                "d": "Plumbing",
+                "p": 18
+            },
+            {
+                "d": "Cable/Internet",
+                "p": 16
+            },
+            {
+                "d": "Electrical Wiring/Lighting",
+                "p": 9
+            },
+            {
+                "d": "Air Conditioning",
+                "p": 8
+            },
+            {
+                "d": "Security System",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name a good way to wake up fast.",
+        "keys": [
+            {
+                "d": "Cold Water",
+                "p": 36
+            },
+            {
+                "d": "Alarm Clock",
+                "p": 27
+            },
+            {
+                "d": "Coffee",
+                "p": 14
+            },
+            {
+                "d": "Kids/Pets need attention",
+                "p": 3
+            },
+            {
+                "d": "Realize you are running late",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a living thing that scares people.",
+        "keys": [
+            {
+                "d": "Spiders",
+                "p": 45
+            },
+            {
+                "d": "Snakes",
+                "p": 13
+            },
+            {
+                "d": "Other People",
+                "p": 12
+            },
+            {
+                "d": "Bears",
+                "p": 9
+            },
+            {
+                "d": "Sharks",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name something you put in tea.",
+        "keys": [
+            {
+                "d": "Sugar",
+                "p": 35
+            },
+            {
+                "d": "Honey",
+                "p": 24
+            },
+            {
+                "d": "Milk",
+                "p": 19
+            },
+            {
+                "d": "Lemon",
+                "p": 5
+            },
+            {
+                "d": "Hot Water",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something you'd find in the desert.",
+        "keys": [
+            {
+                "d": "Sand",
+                "p": 41
+            },
+            {
+                "d": "Cactus",
+                "p": 32
+            },
+            {
+                "d": "Camel",
+                "p": 5
+            },
+            {
+                "d": "Scorpions",
+                "p": 4
+            },
+            {
+                "d": "Snakes",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name an occasion to send flowers.",
+        "keys": [
+            {
+                "d": "Valentines Day",
+                "p": 32
+            },
+            {
+                "d": "Funeral",
+                "p": 22
+            },
+            {
+                "d": "Anniversary",
+                "p": 14
+            },
+            {
+                "d": "Birthday",
+                "p": 13
+            },
+            {
+                "d": "Mothers Day",
+                "p": 12
+            }
+        ]
+    },
+    {
+        "question": "Name a city in Canada.",
+        "keys": [
+            {
+                "d": "Toronto",
+                "p": 34
+            },
+            {
+                "d": "Ottawa",
+                "p": 13
+            },
+            {
+                "d": "Vancouver",
+                "p": 11
+            },
+            {
+                "d": "Montreal",
+                "p": 10
+            },
+            {
+                "d": "Quebec",
+                "p": 9
+            }
+        ]
+    },
+    {
+        "question": "Name something that is against the law.",
+        "keys": [
+            {
+                "d": "Murder",
+                "p": 39
+            },
+            {
+                "d": "Theft",
+                "p": 25
+            },
+            {
+                "d": "Speeding",
+                "p": 8
+            },
+            {
+                "d": "Jaywalking",
+                "p": 6
+            },
+            {
+                "d": "Drugs",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something expensive you could order in a restaurant.",
+        "keys": [
+            {
+                "d": "Lobster",
+                "p": 32
+            },
+            {
+                "d": "Wine",
+                "p": 23
+            },
+            {
+                "d": "Steak/Filet",
+                "p": 19
+            },
+            {
+                "d": "Caviar",
+                "p": 13
+            },
+            {
+                "d": "Foie Gras",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something people often lose.",
+        "keys": [
+            {
+                "d": "Keys",
+                "p": 53
+            },
+            {
+                "d": "Money",
+                "p": 7
+            },
+            {
+                "d": "Mind",
+                "p": 6
+            },
+            {
+                "d": "Phone",
+                "p": 5
+            },
+            {
+                "d": "Virginity",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something a baby might use.",
+        "keys": [
+            {
+                "d": "Pacifier",
+                "p": 32
+            },
+            {
+                "d": "Diaper",
+                "p": 21
+            },
+            {
+                "d": "Rattle",
+                "p": 15
+            },
+            {
+                "d": "Bottle",
+                "p": 14
+            },
+            {
+                "d": "Bib",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a food that kids love.",
+        "keys": [
+            {
+                "d": "Pizza",
+                "p": 21
+            },
+            {
+                "d": "Mac & Cheese",
+                "p": 20
+            },
+            {
+                "d": "Chicken Nuggets",
+                "p": 15
+            },
+            {
+                "d": "Candy",
+                "p": 9
+            },
+            {
+                "d": "Ice Cream",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name one of the Seven Dwarfs.",
+        "keys": [
+            {
+                "d": "Sleepy",
+                "p": 32
+            },
+            {
+                "d": "Dopey",
+                "p": 26
+            },
+            {
+                "d": "Grumpy",
+                "p": 17
+            },
+            {
+                "d": "Doc",
+                "p": 9
+            },
+            {
+                "d": "Happy",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name a cold drink.",
+        "keys": [
+            {
+                "d": "Soda",
+                "p": 31
+            },
+            {
+                "d": "Iced Tea",
+                "p": 18
+            },
+            {
+                "d": "Water",
+                "p": 14
+            },
+            {
+                "d": "Beer",
+                "p": 13
+            },
+            {
+                "d": "Lemonade",
+                "p": 8
+            }
+        ]
+    },
+    {
+        "question": "Name a piece of clothing you put on when it gets cold.",
+        "keys": [
+            {
+                "d": "Jacket/Coat",
+                "p": 32
+            },
+            {
+                "d": "Sweater/Sweatshirt",
+                "p": 27
+            },
+            {
+                "d": "Scarf",
+                "p": 19
+            },
+            {
+                "d": "Hat",
+                "p": 8
+            },
+            {
+                "d": "Gloves/Mittens",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name a vegetable that grows underground.",
+        "keys": [
+            {
+                "d": "Carrot",
+                "p": 48
+            },
+            {
+                "d": "Potato",
+                "p": 40
+            },
+            {
+                "d": "Onion",
+                "p": 3
+            },
+            {
+                "d": "Radish",
+                "p": 2
+            },
+            {
+                "d": "Beet",
+                "p": 1
+            }
+        ]
+    },
+    {
+        "question": "Name something you sit on at home.",
+        "keys": [
+            {
+                "d": "Couch/Sofa",
+                "p": 52
+            },
+            {
+                "d": "Chair",
+                "p": 26
+            },
+            {
+                "d": "Toilet",
+                "p": 7
+            },
+            {
+                "d": "Bed",
+                "p": 5
+            },
+            {
+                "d": "Floor",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something you shouldn't put your feet on at your parents house.",
+        "keys": [
+            {
+                "d": "Dinner Table",
+                "p": 35
+            },
+            {
+                "d": "Coffee Table",
+                "p": 22
+            },
+            {
+                "d": "Couch",
+                "p": 12
+            },
+            {
+                "d": "Family Members",
+                "p": 10
+            },
+            {
+                "d": "Carpets",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a word or phrase that contains the word Stream.",
+        "keys": [
+            {
+                "d": "Streamlined",
+                "p": 17
+            },
+            {
+                "d": "Livestream",
+                "p": 14
+            },
+            {
+                "d": "Streaming Vimeo",
+                "p": 10
+            },
+            {
+                "d": "Stream of Consciousness",
+                "p": 6
+            },
+            {
+                "d": "Downstream",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a word that has no rhymes.",
+        "keys": [
+            {
+                "d": "Orange",
+                "p": 64
+            },
+            {
+                "d": "Purple",
+                "p": 11
+            },
+            {
+                "d": "Silver",
+                "p": 9
+            },
+            {
+                "d": "Month",
+                "p": 3
+            },
+            {
+                "d": "Rhythm",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a fictional character famous for not wearing pants.",
+        "keys": [
+            {
+                "d": "Donald Duck",
+                "p": 42
+            },
+            {
+                "d": "Winnie the Pooh",
+                "p": 14
+            },
+            {
+                "d": "Captain Underpants",
+                "p": 9
+            },
+            {
+                "d": "Squidward",
+                "p": 6
+            },
+            {
+                "d": "Bugs Bunny 3\r\n",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something you delete.",
+        "keys": [
+            {
+                "d": "Browser History",
+                "p": 26
+            },
+            {
+                "d": "Old emails/messages",
+                "p": 18
+            },
+            {
+                "d": "Files",
+                "p": 16
+            },
+            {
+                "d": "Photos",
+                "p": 8
+            },
+            {
+                "d": "Typos",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name something you don't want to see at the beach.",
+        "keys": [
+            {
+                "d": "The human body",
+                "p": 45
+            },
+            {
+                "d": "Sharks",
+                "p": 22
+            },
+            {
+                "d": "Trash",
+                "p": 7
+            },
+            {
+                "d": "Dead Animals",
+                "p": 7
+            },
+            {
+                "d": "Bad Weather",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name a vegetable that isn't green.",
+        "keys": [
+            {
+                "d": "Carrot",
+                "p": 55
+            },
+            {
+                "d": "Potato",
+                "p": 9
+            },
+            {
+                "d": "Eggplant",
+                "p": 8
+            },
+            {
+                "d": "Tomato",
+                "p": 7
+            },
+            {
+                "d": "Beets",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name an animal that growls.",
+        "keys": [
+            {
+                "d": "Dog",
+                "p": 55
+            },
+            {
+                "d": "Wolf",
+                "p": 11
+            },
+            {
+                "d": "Bear",
+                "p": 10
+            },
+            {
+                "d": "Tiger",
+                "p": 9
+            },
+            {
+                "d": "Lion",
+                "p": 8
+            }
+        ]
+    },
+    {
+        "question": "Name a time that you might get stuck with a needle.",
+        "keys": [
+            {
+                "d": "Sewing",
+                "p": 32
+            },
+            {
+                "d": "Doctor's Office",
+                "p": 24
+            },
+            {
+                "d": "Vaccinations",
+                "p": 19
+            },
+            {
+                "d": "Blood Donation",
+                "p": 6
+            },
+            {
+                "d": "Using Intravenous Drugs",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something with fangs.",
+        "keys": [
+            {
+                "d": "Vampire",
+                "p": 39
+            },
+            {
+                "d": "Snakes",
+                "p": 22
+            },
+            {
+                "d": "Bats",
+                "p": 11
+            },
+            {
+                "d": "Wolf",
+                "p": 9
+            },
+            {
+                "d": "Tiger",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a country with green in their flag.",
+        "keys": [
+            {
+                "d": "Italy",
+                "p": 23
+            },
+            {
+                "d": "Mexico",
+                "p": 20
+            },
+            {
+                "d": "Ireland",
+                "p": 18
+            },
+            {
+                "d": "Brazil",
+                "p": 11
+            },
+            {
+                "d": "Libya",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something that can have a spring in it.",
+        "keys": [
+            {
+                "d": "Bed Mattress",
+                "p": 30
+            },
+            {
+                "d": "Pen/Mechanical Pencil",
+                "p": 18
+            },
+            {
+                "d": "Your Step",
+                "p": 11
+            },
+            {
+                "d": "Watch/Clock",
+                "p": 10
+            },
+            {
+                "d": "Car",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a menu item that is made with noodles.",
+        "keys": [
+            {
+                "d": "Spaghetti",
+                "p": 27
+            },
+            {
+                "d": "Ramen",
+                "p": 13
+            },
+            {
+                "d": "Pad Thai",
+                "p": 11
+            },
+            {
+                "d": "Chicken Noodle Soup",
+                "p": 8
+            },
+            {
+                "d": "Chow Mein",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "What was your favorite class in grade school.",
+        "keys": [
+            {
+                "d": "Math",
+                "p": 20
+            },
+            {
+                "d": "Gym",
+                "p": 18
+            },
+            {
+                "d": "Art",
+                "p": 17
+            },
+            {
+                "d": "Science",
+                "p": 16
+            },
+            {
+                "d": "History/Social Studies",
+                "p": 9
+            }
+        ]
+    },
+    {
+        "question": "What is one thing that anybody should be able to cook.",
+        "keys": [
+            {
+                "d": "Pasta",
+                "p": 27
+            },
+            {
+                "d": "Eggs",
+                "p": 22
+            },
+            {
+                "d": "Ramen",
+                "p": 11
+            },
+            {
+                "d": "Toast",
+                "p": 10
+            },
+            {
+                "d": "Rice",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name one part of your body that you wish was smaller.",
+        "keys": [
+            {
+                "d": "Stomach",
+                "p": 37
+            },
+            {
+                "d": "Nose",
+                "p": 22
+            },
+            {
+                "d": "Thighs",
+                "p": 7
+            },
+            {
+                "d": "Feet",
+                "p": 6
+            },
+            {
+                "d": "Waist",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something sticky.",
+        "keys": [
+            {
+                "d": "Glue",
+                "p": 27
+            },
+            {
+                "d": "Gum",
+                "p": 19
+            },
+            {
+                "d": "A Stick",
+                "p": 11
+            },
+            {
+                "d": "Honey",
+                "p": 9
+            },
+            {
+                "d": "Syrup",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name an American city that starts with the letter \"T.",
+        "keys": [
+            {
+                "d": "\"Tallahassee",
+                "p": 31
+            },
+            {
+                "d": "Toledo",
+                "p": 13
+            },
+            {
+                "d": "Tampa",
+                "p": 12
+            },
+            {
+                "d": "Tulsa",
+                "p": 7
+            },
+            {
+                "d": "Tucson",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name a National Park.",
+        "keys": [
+            {
+                "d": "Yellowstone",
+                "p": 51
+            },
+            {
+                "d": "Yosemite",
+                "p": 24
+            },
+            {
+                "d": "Grand Canyon",
+                "p": 5
+            },
+            {
+                "d": "Zion",
+                "p": 3
+            },
+            {
+                "d": "Glacier",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a reason you might get stopped by the police.",
+        "keys": [
+            {
+                "d": "Speeding",
+                "p": 67
+            },
+            {
+                "d": "Racism",
+                "p": 10
+            },
+            {
+                "d": "Broken tail/headlight",
+                "p": 6
+            },
+            {
+                "d": "DUI",
+                "p": 4
+            },
+            {
+                "d": "Dangerous Driving",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a magazine that features shirtless men on the cover.",
+        "keys": [
+            {
+                "d": "Men's Health",
+                "p": 26
+            },
+            {
+                "d": "GQ",
+                "p": 22
+            },
+            {
+                "d": "Playgirl",
+                "p": 18
+            },
+            {
+                "d": "Mens Fitness",
+                "p": 8
+            },
+            {
+                "d": "Sports Illustrated",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something you need to book months in advance.",
+        "keys": [
+            {
+                "d": "Plane tickets",
+                "p": 26
+            },
+            {
+                "d": "Wedding Venues",
+                "p": 22
+            },
+            {
+                "d": "Vacations",
+                "p": 21
+            },
+            {
+                "d": "Fancy Restaurants",
+                "p": 7
+            },
+            {
+                "d": "Medical Appointments",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a villain who wears a mask.",
+        "keys": [
+            {
+                "d": "Bane",
+                "p": 15
+            },
+            {
+                "d": "Darth Vader",
+                "p": 11
+            },
+            {
+                "d": "The Riddler",
+                "p": 10
+            }
+        ]
+    },
+    {
+        "question": "Name a planet that is larger than Earth.",
+        "keys": [
+            {
+                "d": "Jupiter",
+                "p": 68
+            },
+            {
+                "d": "Saturn",
+                "p": 17
+            },
+            {
+                "d": "Neptune",
+                "p": 5
+            },
+            {
+                "d": "Uranus",
+                "p": 4
+            },
+            {
+                "d": "Venus",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name an appliance you use almost every day.",
+        "keys": [
+            {
+                "d": "Microwave",
+                "p": 25
+            },
+            {
+                "d": "Refrigerator",
+                "p": 24
+            },
+            {
+                "d": "Coffee Maker/Tea Kettle",
+                "p": 14
+            },
+            {
+                "d": "Stove/Oven",
+                "p": 12
+            },
+            {
+                "d": "Toaster",
+                "p": 10
+            }
+        ]
+    },
+    {
+        "question": "Name something you do late at night instead of falling asleep.",
+        "keys": [
+            {
+                "d": "Browse Internet",
+                "p": 34
+            },
+            {
+                "d": "Read",
+                "p": 23
+            },
+            {
+                "d": "Watch TV/Netflix",
+                "p": 19
+            },
+            {
+                "d": "Masturbate",
+                "p": 7
+            },
+            {
+                "d": "Play Video Games",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a fictional character who uses a bow.",
+        "keys": [
+            {
+                "d": "Robin Hood",
+                "p": 30
+            },
+            {
+                "d": "Legolas",
+                "p": 22
+            },
+            {
+                "d": "Katniss",
+                "p": 21
+            },
+            {
+                "d": "Green Arrow",
+                "p": 11
+            },
+            {
+                "d": "Link",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name something that can be stuffed.",
+        "keys": [
+            {
+                "d": "Turkey",
+                "p": 40
+            },
+            {
+                "d": "Stuffed Animals",
+                "p": 32
+            },
+            {
+                "d": "Peppers",
+                "p": 6
+            },
+            {
+                "d": "Pillows",
+                "p": 5
+            },
+            {
+                "d": "Chicken",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something you pay for once a month.",
+        "keys": [
+            {
+                "d": "Rent/Mortgage",
+                "p": 23
+            },
+            {
+                "d": "Cable/Internet",
+                "p": 22
+            },
+            {
+                "d": "Utilities",
+                "p": 18
+            },
+            {
+                "d": "Phone",
+                "p": 17
+            },
+            {
+                "d": "Netflix",
+                "p": 9
+            },
+            {
+                "d": "Who do you text the most?Significant Other",
+                "p": 49
+            },
+            {
+                "d": "Friend",
+                "p": 25
+            },
+            {
+                "d": "Parents",
+                "p": 14
+            },
+            {
+                "d": "Siblings",
+                "p": 3
+            },
+            {
+                "d": "Work",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something you can pop.",
+        "keys": [
+            {
+                "d": "Balloons",
+                "p": 26
+            },
+            {
+                "d": "Pimples",
+                "p": 22
+            },
+            {
+                "d": "Bubble Wrap",
+                "p": 15
+            },
+            {
+                "d": "Popcorn",
+                "p": 7
+            },
+            {
+                "d": "Cherry",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a type of tree with large leaves.",
+        "keys": [
+            {
+                "d": "Maple",
+                "p": 31
+            },
+            {
+                "d": "Palm",
+                "p": 28
+            },
+            {
+                "d": "Oak",
+                "p": 20
+            },
+            {
+                "d": "Banana",
+                "p": 6
+            },
+            {
+                "d": "Magnolia",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something that you can add bacon to.",
+        "keys": [
+            {
+                "d": "Anything & Everything",
+                "p": 23
+            },
+            {
+                "d": "Eggs",
+                "p": 20
+            },
+            {
+                "d": "Burger",
+                "p": 17
+            },
+            {
+                "d": "Sandwich",
+                "p": 10
+            },
+            {
+                "d": "Mac & Cheese",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a type of person who carries a sword.",
+        "keys": [
+            {
+                "d": "Knight",
+                "p": 52
+            },
+            {
+                "d": "Samurai",
+                "p": 13
+            },
+            {
+                "d": "Nerd",
+                "p": 6
+            },
+            {
+                "d": "Warrior",
+                "p": 5
+            },
+            {
+                "d": "Ninja",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a cocktail you would order at a bar.",
+        "keys": [
+            {
+                "d": "Martini",
+                "p": 17
+            },
+            {
+                "d": "Margarita",
+                "p": 7
+            },
+            {
+                "d": "Manhattan",
+                "p": 6
+            },
+            {
+                "d": "Bloody Mary",
+                "p": 6
+            },
+            {
+                "d": "Cosmo",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something you are happy to lose.",
+        "keys": [
+            {
+                "d": "Weight",
+                "p": 53
+            },
+            {
+                "d": "Virginity",
+                "p": 27
+            },
+            {
+                "d": "Debt",
+                "p": 6
+            },
+            {
+                "d": "Bad Influences",
+                "p": 2
+            },
+            {
+                "d": "Teeth",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name an animal with horns.",
+        "keys": [
+            {
+                "d": "Ram",
+                "p": 25
+            },
+            {
+                "d": "Bull",
+                "p": 24
+            },
+            {
+                "d": "Goat",
+                "p": 17
+            },
+            {
+                "d": "Rhino",
+                "p": 16
+            },
+            {
+                "d": "Buck",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name an internet meme that features an animal.",
+        "keys": [
+            {
+                "d": "Socially Awkward Penguin",
+                "p": 16
+            },
+            {
+                "d": "Grumpy Cat",
+                "p": 15
+            },
+            {
+                "d": "Confession Bear",
+                "p": 14
+            },
+            {
+                "d": "Doge",
+                "p": 10
+            },
+            {
+                "d": "Insanity Wolf",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name something you put on when you are getting dressed up.",
+        "keys": [
+            {
+                "d": "Tie",
+                "p": 26
+            },
+            {
+                "d": "Makeup",
+                "p": 14
+            },
+            {
+                "d": "Jewelry",
+                "p": 11
+            },
+            {
+                "d": "Nice Shoes",
+                "p": 10
+            },
+            {
+                "d": "Perfume/Cologne",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name a slang word or phrase that your parents used when they were teenagers.",
+        "keys": [
+            {
+                "d": "Groovy",
+                "p": 37
+            },
+            {
+                "d": "Rad",
+                "p": 18
+            },
+            {
+                "d": "Cool",
+                "p": 6
+            },
+            {
+                "d": "Far Out",
+                "p": 5
+            },
+            {
+                "d": "Hip",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something that you think women find boring.",
+        "keys": [
+            {
+                "d": "Sports",
+                "p": 43
+            },
+            {
+                "d": "Cars",
+                "p": 14
+            },
+            {
+                "d": "Men",
+                "p": 7
+            },
+            {
+                "d": "Video Games",
+                "p": 6
+            },
+            {
+                "d": "Hunting/Fishing",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a place where you look for breaking news.",
+        "keys": [
+            {
+                "d": "Internet",
+                "p": 60
+            },
+            {
+                "d": "TV",
+                "p": 24
+            },
+            {
+                "d": "Twitter",
+                "p": 8
+            },
+            {
+                "d": "Facebook",
+                "p": 3
+            },
+            {
+                "d": "Newspaper",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something you keep in your car at all times.",
+        "keys": [
+            {
+                "d": "Insurance & Registration",
+                "p": 18
+            },
+            {
+                "d": "Ice Scraper",
+                "p": 7
+            },
+            {
+                "d": "Jumper Cables",
+                "p": 6
+            },
+            {
+                "d": "Money/Coins",
+                "p": 5
+            },
+            {
+                "d": "Spare Tire",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something you do when you're home sick from school/work.",
+        "keys": [
+            {
+                "d": "Sleep 43Watch TV/Movies/Netflix (29)",
+                "p": 43
+            },
+            {
+                "d": "Play Video Games",
+                "p": 9
+            },
+            {
+                "d": "Browse Internet",
+                "p": 6
+            },
+            {
+                "d": "Eat Soup/Drink lots of fluids",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a way parents keep their children from misbehaving in public.",
+        "keys": [
+            {
+                "d": "Bribe them",
+                "p": 21
+            },
+            {
+                "d": "Threaten them",
+                "p": 18
+            },
+            {
+                "d": "Hit them",
+                "p": 13
+            },
+            {
+                "d": "Leash them",
+                "p": 10
+            },
+            {
+                "d": "Shouting",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name an awkward conversation you might have with your significant other.",
+        "keys": [
+            {
+                "d": "Time to break up",
+                "p": 14
+            },
+            {
+                "d": "Past relationships",
+                "p": 12
+            },
+            {
+                "d": "STDs",
+                "p": 10
+            },
+            {
+                "d": "Pregnant",
+                "p": 9
+            },
+            {
+                "d": "Cheating",
+                "p": 8
+            }
+        ]
+    },
+    {
+        "question": "Name something someone might search for on google.",
+        "keys": [
+            {
+                "d": "Porn",
+                "p": 20
+            },
+            {
+                "d": "\"Hot To\"",
+                "p": 12
+            },
+            {
+                "d": "Recipes",
+                "p": 10
+            },
+            {
+                "d": "Directions",
+                "p": 9
+            },
+            {
+                "d": "Medical Symptoms",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something you eat with your hands.",
+        "keys": [
+            {
+                "d": "Pizza",
+                "p": 19
+            },
+            {
+                "d": "Hamburger",
+                "p": 15
+            },
+            {
+                "d": "Sandwich",
+                "p": 13
+            },
+            {
+                "d": "French Fries",
+                "p": 10
+            },
+            {
+                "d": "Tacos",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name an activity that someone might do in Las Vegas.",
+        "keys": [
+            {
+                "d": "Gamble",
+                "p": 74
+            },
+            {
+                "d": "Drink",
+                "p": 6
+            },
+            {
+                "d": "Prostitutes",
+                "p": 5
+            },
+            {
+                "d": "Get Married",
+                "p": 4
+            },
+            {
+                "d": "Go see a show",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something someone might pin on Pinterest.",
+        "keys": [
+            {
+                "d": "Recipes",
+                "p": 30
+            },
+            {
+                "d": "DIY/Crafts",
+                "p": 13
+            },
+            {
+                "d": "Food",
+                "p": 11
+            },
+            {
+                "d": "Fashion",
+                "p": 10
+            },
+            {
+                "d": "Wedding Ideas",
+                "p": 9
+            }
+        ]
+    },
+    {
+        "question": "Name something someone might learn to do on Youtube.",
+        "keys": [
+            {
+                "d": "Tie a tie",
+                "p": 16
+            },
+            {
+                "d": "Makeup",
+                "p": 14
+            },
+            {
+                "d": "Play Instrument",
+                "p": 13
+            },
+            {
+                "d": "Knit",
+                "p": 7
+            },
+            {
+                "d": "Fix Car",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name something someone might post a photo of on Instagram.",
+        "keys": [
+            {
+                "d": "Food",
+                "p": 43
+            },
+            {
+                "d": "Selfie",
+                "p": 25
+            },
+            {
+                "d": "Pets",
+                "p": 7
+            },
+            {
+                "d": "Nature",
+                "p": 3
+            },
+            {
+                "d": "Vacation",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something that people post on Facebook that you might find annoying.",
+        "keys": [
+            {
+                "d": "Babies",
+                "p": 27
+            },
+            {
+                "d": "Politics & Religion",
+                "p": 13
+            },
+            {
+                "d": "Selfies",
+                "p": 7
+            },
+            {
+                "d": "Game invites",
+                "p": 6
+            },
+            {
+                "d": "Food",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something people waste a great deal of time doing.",
+        "keys": [
+            {
+                "d": "Browsing internet",
+                "p": 26
+            },
+            {
+                "d": "Answering Surveys",
+                "p": 14
+            },
+            {
+                "d": "Social Media Sites",
+                "p": 11
+            },
+            {
+                "d": "Television",
+                "p": 9
+            },
+            {
+                "d": "Worrying",
+                "p": 6
+            },
+            {
+                "d": "Where is the best place to take a selfie?Bathroom",
+                "p": 39
+            },
+            {
+                "d": "Car",
+                "p": 13
+            },
+            {
+                "d": "In front of a window",
+                "p": 8
+            },
+            {
+                "d": "Outside",
+                "p": 7
+            },
+            {
+                "d": "Bedroom",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something you would be embarrassed for your parents to find in your room.",
+        "keys": [
+            {
+                "d": "Sex Toys",
+                "p": 46
+            },
+            {
+                "d": "Porn",
+                "p": 21
+            },
+            {
+                "d": "Condoms",
+                "p": 11
+            },
+            {
+                "d": "Drugs",
+                "p": 4
+            },
+            {
+                "d": "Artwork",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a hashtag you find annoying.",
+        "keys": [
+            {
+                "d": "Yolo",
+                "p": 26
+            },
+            {
+                "d": "All of them",
+                "p": 20
+            },
+            {
+                "d": "Blessed",
+                "p": 8
+            },
+            {
+                "d": "Swag",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name something you can buy from your seat at a sports event.",
+        "keys": [
+            {
+                "d": "Hot Dogs",
+                "p": 28
+            },
+            {
+                "d": "Beer",
+                "p": 22
+            },
+            {
+                "d": "Cotton Candy",
+                "p": 13
+            },
+            {
+                "d": "Popcorn",
+                "p": 12
+            },
+            {
+                "d": "Peanuts",
+                "p": 9
+            }
+        ]
+    },
+    {
+        "question": "Name something you can't do on an airplane.",
+        "keys": [
+            {
+                "d": "Smoke",
+                "p": 35
+            },
+            {
+                "d": "Sex/Masturbate",
+                "p": 13
+            },
+            {
+                "d": "Say \"Bomb\"",
+                "p": 8
+            },
+            {
+                "d": "Carry a weapon",
+                "p": 4
+            },
+            {
+                "d": "Leave",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something you are embarrassed to be afraid of.",
+        "keys": [
+            {
+                "d": "The Dark",
+                "p": 18
+            },
+            {
+                "d": "Spiders",
+                "p": 11
+            },
+            {
+                "d": "Bugs",
+                "p": 10
+            },
+            {
+                "d": "Heights",
+                "p": 9
+            },
+            {
+                "d": "Rejection/Opposite Sex",
+                "p": 8
+            }
+        ]
+    },
+    {
+        "question": "Name a slang word for an erection.",
+        "keys": [
+            {
+                "d": "Boner",
+                "p": 65
+            },
+            {
+                "d": "Hard On",
+                "p": 14
+            },
+            {
+                "d": "Wood",
+                "p": 7
+            },
+            {
+                "d": "Stiffy",
+                "p": 6
+            },
+            {
+                "d": "Pitched Tent",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something you should do every day, but which some people don't.",
+        "keys": [
+            {
+                "d": "Brush Teeth",
+                "p": 33
+            },
+            {
+                "d": "Floss",
+                "p": 25
+            },
+            {
+                "d": "Shower",
+                "p": 14
+            },
+            {
+                "d": "Exercise",
+                "p": 13
+            },
+            {
+                "d": "Eat",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something disgusting that people order on a pizza.",
+        "keys": [
+            {
+                "d": "Anchovies",
+                "p": 46
+            },
+            {
+                "d": "Pineapple",
+                "p": 16
+            },
+            {
+                "d": "Olives",
+                "p": 10
+            },
+            {
+                "d": "Mushrooms",
+                "p": 7
+            },
+            {
+                "d": "Tomato",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something you wouldn't want someone to see in your browser history.",
+        "keys": [
+            {
+                "d": "Porn",
+                "p": 69
+            },
+            {
+                "d": "*I'm not kidding Reddit",
+                "p": 6
+            },
+            {
+                "d": "WebMD",
+                "p": 2
+            },
+            {
+                "d": "Spacedicks",
+                "p": 2
+            },
+            {
+                "d": "Fanfiction",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a business that is open after midnight.",
+        "keys": [
+            {
+                "d": "Fast Food",
+                "p": 34
+            },
+            {
+                "d": "Convenience Store",
+                "p": 16
+            },
+            {
+                "d": "Bars",
+                "p": 10
+            },
+            {
+                "d": "Walmart",
+                "p": 9
+            },
+            {
+                "d": "Diner",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name something a child might spend their allowance on.",
+        "keys": [
+            {
+                "d": "Candy",
+                "p": 60
+            },
+            {
+                "d": "Video Games",
+                "p": 15
+            },
+            {
+                "d": "Toys",
+                "p": 9
+            },
+            {
+                "d": "Gum",
+                "p": 4
+            },
+            {
+                "d": "Comic Books",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something people say when they are trying to end a relationship.",
+        "keys": [
+            {
+                "d": "it's me",
+                "p": 58
+            },
+            {
+                "d": "We need to talk",
+                "p": 7
+            },
+            {
+                "d": "Let's stay friends",
+                "p": 6
+            },
+            {
+                "d": "Fuck You/Fuck Off",
+                "p": 5
+            },
+            {
+                "d": "I'm sorry",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a historical figure you think you could beat in a fist fight.",
+        "keys": [
+            {
+                "d": "Hellen Keller",
+                "p": 16
+            },
+            {
+                "d": "Gandhi",
+                "p": 15
+            },
+            {
+                "d": "Mother Theresa",
+                "p": 9
+            },
+            {
+                "d": "Napoleon Bonaparte",
+                "p": 7
+            },
+            {
+                "d": "Steven Hawking",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name a musician people are embarrassed to like.",
+        "keys": [
+            {
+                "d": "Taylor Swift",
+                "p": 25
+            },
+            {
+                "d": "Bieber",
+                "p": 19
+            },
+            {
+                "d": "Nicleback",
+                "p": 15
+            },
+            {
+                "d": "One Direction",
+                "p": 6
+            },
+            {
+                "d": "Katy Perry",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a fictional animal you would like to have as a pet.",
+        "keys": [
+            {
+                "d": "Dragon",
+                "p": 23
+            },
+            {
+                "d": "Unicorn",
+                "p": 12
+            },
+            {
+                "d": "Pokemon",
+                "p": 6
+            },
+            {
+                "d": "Phoenix",
+                "p": 5
+            },
+            {
+                "d": "Griffin",
+                "p": 4
+            }
+        ]
     }
 ]
