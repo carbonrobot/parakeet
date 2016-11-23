@@ -8,10 +8,10 @@ import { Router } from '@angular/router';
 
         <form class="form-inline">
             <div class="form-group">
-                <label class="sr-only" for="gamekey">Email address</label>
-                <input class="form-control" [(ngModel)]="gameKey" type="text" name="gamekey" />
+                <label class="sr-only" for="gameKey">Email address</label>
+                <input class="form-control upper" [(ngModel)]="gameKey" type="text" name="gameKey" />
             </div>
-            <button class="btn btn-success" (click)="join()">Join Game</button>
+            <a class="btn btn-success" (click)="join()" [disabled]="gameKey">Join Game</a>
         </form>
     `
 })
@@ -21,8 +21,7 @@ export class JoinPageComponent {
     constructor(private router: Router){}
 
     public join(){
-        // TODO: check if null
-        // TODO: verify its an active host key
-        this.router.navigate(['/player', this.gameKey]);
+        const key = this.gameKey.toUpperCase();
+        this.router.navigate(['/player', key]);
     }
 }
