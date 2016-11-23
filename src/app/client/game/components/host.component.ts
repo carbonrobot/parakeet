@@ -8,22 +8,24 @@ import { Game } from '../models/game.model';
 
 @Component({
     template: `
-        <h1 class="cover-heading">{{gameData.team1}} VS {{gameData.team2}}</h1>
-        <p class="lead">Provide this key <strong>{{gameData.key}}</strong> to another browser window to display the gameboard.</p>
-        <div>
-            <a class="btn btn-default" (click)="newPuzzle()">New Puzzle</a>
-        </div>
-        <div *ngIf="gameData && gameData.puzzle" class="container-fluid">
-            <p>{{gameData.puzzle.question}}</p>
-            <div class="row">
-                <div *ngFor="let item of gameData.puzzle.keys let idx=index" class="col-sm-12 puzzle-box">
-                    <div class="puzzle-answer">{{item.d}}</div>
-                    <div class="puzzle-actions">
-                        <button class="btn btn-sm btn-default" (click)="select(idx, 1)" [disabled]="item.team === 1">{{gameData.team1}}</button>
-                        <button class="btn btn-sm btn-default" (click)="select(idx, 2)" [disabled]="item.team === 2">{{gameData.team2}}</button>
-                        <button class="btn btn-sm btn-default" (click)="select(idx, 0)" [disabled]="item.team === 0">X</button>
+        <div *ngIf="gameData">
+            <h1 class="cover-heading">{{gameData.team1}} VS {{gameData.team2}}</h1>
+            <p class="lead">Provide this key <strong>{{gameData.key}}</strong> to another browser window to display the gameboard.</p>
+            <div>
+                <a class="btn btn-default" (click)="newPuzzle()">New Puzzle</a>
+            </div>
+            <div *ngIf="gameData.puzzle" class="container-fluid">
+                <p>{{gameData.puzzle.question}}</p>
+                <div class="row">
+                    <div *ngFor="let item of gameData.puzzle.keys let idx=index" class="col-sm-12 puzzle-box">
+                        <div class="puzzle-answer">{{item.d}}</div>
+                        <div class="puzzle-actions">
+                            <button type="button" class="btn btn-sm btn-default" (click)="select(idx, 1)" [disabled]="item.team === 1">{{gameData.team1}}</button>
+                            <button type="button" class="btn btn-sm btn-default" (click)="select(idx, 2)" [disabled]="item.team === 2">{{gameData.team2}}</button>
+                            <button type="button" class="btn btn-sm btn-default" (click)="select(idx, 0)" [disabled]="item.team === 0">X</button>
+                        </div>
+                        <div class="puzzle-pct">{{item.p}}</div>
                     </div>
-                    <div class="puzzle-pct">{{item.p}}</div>
                 </div>
             </div>
         </div>
@@ -33,16 +35,11 @@ export class HostPageComponent implements OnInit {
 
     public gameData: Game;
 
-    private routeSub: any;
-
     constructor(private route: ActivatedRoute,
         private router: Router,
         private socket: SocketService,
         private service: GameService) {
 
-        if (!this.service.data) {
-            this.service.startNewGame();
-        }
         this.gameData = service.data;
     }
 
@@ -57,12 +54,14 @@ export class HostPageComponent implements OnInit {
         this.updatePlayers.call(this);
     }
 
-    ngOnDestroy() {
-        this.routeSub.unsubscribe();
-    }
-
     ngOnInit() {
-        this.socket.get(this.gameData.key);
+        if(this.gameData){
+            this.socket.get(this.gameData.key);
+        }
+        else {
+            // kick back to the create screen
+            this.router.navigate(['/create']);
+        }
     }
 
     private updatePlayers() {
