@@ -1,14 +1,10 @@
 'use strict';
 
-const puzzles = require('./puzzle.data.js');
+const puzzles = require('./puzzle.data.json');
 
 function getPuzzle(request, reply){
-    const test = puzzles[getRandomInt(0, puzzles.length)];
+    const test = puzzles[Math.floor(Math.random() * puzzles.length)];
     return reply(test);
-}
-
-function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 module.exports = {
