@@ -71,7 +71,7 @@ export class HostPageComponent implements OnInit {
     select(idx: number, team: number) {
         this.gameData.puzzle.keys[idx].team = team;
         this.gameData['team' + team].score += this.gameData.puzzle.keys[idx].p;
-        this.updatePlayers.call(this);
+        this.onAnswerSelected.call(this);
     }
 
     strike(team: number) {
@@ -94,6 +94,10 @@ export class HostPageComponent implements OnInit {
 
     private updatePlayers() {
         this.socket.update(this.gameData);
+    }
+
+    private onAnswerSelected(){
+        this.socket.answer(this.gameData);
     }
 
 }

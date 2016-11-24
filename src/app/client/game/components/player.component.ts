@@ -48,6 +48,9 @@ export class PlayerPageComponent {
     private routeSub: any;
     private socketSub: any;
 
+    private sound_buzz = new Audio();
+    private sound_correct = new Audio();
+
     constructor(private route: ActivatedRoute, private socket: SocketService) {
         this.routeSub = route.params.subscribe(params => {
             this.gameKey = params['key'];
@@ -58,8 +61,15 @@ export class PlayerPageComponent {
             .subscribe(data => {
                 if (data.action === 'notification') this.onNotification(data.item);
                 if (data.action === 'update') this.onUpdate(data.item);
+                if (data.action === 'answer') this.onAnswer(data.item);
                 if (data.action === 'strike') this.onStrike(data.item);
             }, console.log);
+
+        this.sound_buzz.src = '/public/buzz.mp3';
+        this.sound_buzz.load();
+
+        this.sound_correct.src = '/public/correct.mp3';
+        this.sound_correct.load();
     }
 
     ngOnDestroy() {
@@ -75,10 +85,18 @@ export class PlayerPageComponent {
         this.gameData = item;
     }
 
+    private onAnswer(item) {
+        this.gameData = item;
+        this.sound_correct.play();
+    }
+
     private onStrike(item){
         this.strike = item;
         setTimeout(() => {
             this.strike = null;
         }, 5000);
+
+        this.sound_buzz.play();
     }
+    
 }

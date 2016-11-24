@@ -22,6 +22,7 @@ export class SocketService {
 
         let o = new Observable((observer: any) => {
             this.socket.on("notification", item => observer.next({ action: "notification", item: item }));
+            this.socket.on("answer", item => observer.next({ action: "answer", item: item }));
             this.socket.on("update", item => observer.next({ action: "update", item: item }));
             this.socket.on("strike", item => observer.next({ action: "strike", item: item }));
             return () => this.socket.close();
@@ -35,6 +36,10 @@ export class SocketService {
 
     update(data: any) {
         this.socket.emit('update', { room: this.name, data: data });
+    }
+
+    answer(data: any) {
+        this.socket.emit('answer', { room: this.name, data: data });
     }
 
     strike(val: number) {

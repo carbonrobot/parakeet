@@ -15,6 +15,10 @@ function register(httpConfig){
             io.to(data.room).emit('update', data.data);
         });
 
+        socket.on('answer', data => {
+            io.to(data.room).emit('answer', data.data);
+        });
+
         socket.on('strike', data => {
             console.log('strikr', data.room, data.data);
             io.to(data.room).emit('strike', data.data);
