@@ -35,9 +35,9 @@ import { Game } from '../models/game.model';
                 <div class="row">
                     <div *ngFor="let item of gameData.puzzle.keys let idx=index" class="col-sm-12">
                         <div class="row puzzle-box">
-                            <div class="col-xs-8 puzzle-answer">{{item.d}}</div>
+                            <div class="col-xs-7 puzzle-answer">{{item.d}}</div>
                             <div class="col-xs-1 puzzle-pct">{{item.p}}</div>
-                            <div class="col-xs-3 puzzle-actions">
+                            <div class="col-xs-4 puzzle-actions">
                                 <button type="button" class="btn btn-default" (click)="select(idx, 1)" [disabled]="item.team === 1">Team 1</button>
                                 <button type="button" class="btn btn-default" (click)="select(idx, 2)" [disabled]="item.team === 2">Team 2</button>
                             </div>
