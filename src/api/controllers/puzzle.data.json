@@ -108,35 +108,6 @@
         ]
     },
     {
-        "question": "Name Someone You Wouldn’t Want To See Nude",
-        "keys": [
-            {
-                "d": "Mom",
-                "p": 39
-            },
-            {
-                "d": "Dad",
-                "p": 31
-            },
-            {
-                "d": "Boss",
-                "p": 12
-            },
-            {
-                "d": "Grandma",
-                "p": 9
-            },
-            {
-                "d": "Kids",
-                "p": 5
-            },
-            {
-                "d": "Sibling",
-                "p": 3
-            }
-        ]
-    },
-    {
         "question": "What Do You Call Someone Who Is Careful With Money?",
         "keys": [
             {
@@ -614,7 +585,7 @@
         "question": "Name something that makes you feel really good.",
         "keys": [
             {
-                "d": "Sexy Times",
+                "d": "Adult Fun",
                 "p": 29
             },
             {
@@ -839,7 +810,7 @@
         "question": "Name something a woman might have a special hiding place for.",
         "keys": [
             {
-                "d": "Sex Toys",
+                "d": "Adult Products",
                 "p": 33
             },
             {
@@ -1311,31 +1282,6 @@
         ]
     },
     {
-        "question": "Name a word or phrase that contains the word Stream.",
-        "keys": [
-            {
-                "d": "Streamlined",
-                "p": 17
-            },
-            {
-                "d": "Livestream",
-                "p": 14
-            },
-            {
-                "d": "Streaming Vimeo",
-                "p": 10
-            },
-            {
-                "d": "Stream of Consciousness",
-                "p": 6
-            },
-            {
-                "d": "Downstream",
-                "p": 5
-            }
-        ]
-    },
-    {
         "question": "Name a word that has no rhymes.",
         "keys": [
             {
@@ -1380,7 +1326,7 @@
                 "p": 6
             },
             {
-                "d": "Bugs Bunny 3\r\n",
+                "d": "Bugs Bunny",
                 "p": 3
             }
         ]
@@ -1686,35 +1632,10 @@
         ]
     },
     {
-        "question": "Name something sticky.",
-        "keys": [
-            {
-                "d": "Glue",
-                "p": 27
-            },
-            {
-                "d": "Gum",
-                "p": 19
-            },
-            {
-                "d": "A Stick",
-                "p": 11
-            },
-            {
-                "d": "Honey",
-                "p": 9
-            },
-            {
-                "d": "Syrup",
-                "p": 7
-            }
-        ]
-    },
-    {
         "question": "Name an American city that starts with the letter \"T.",
         "keys": [
             {
-                "d": "\"Tallahassee",
+                "d": "Tallahassee",
                 "p": 31
             },
             {
@@ -1832,23 +1753,6 @@
             {
                 "d": "Medical Appointments",
                 "p": 5
-            }
-        ]
-    },
-    {
-        "question": "Name a villain who wears a mask.",
-        "keys": [
-            {
-                "d": "Bane",
-                "p": 15
-            },
-            {
-                "d": "Darth Vader",
-                "p": 11
-            },
-            {
-                "d": "The Riddler",
-                "p": 10
             }
         ]
     },
@@ -1999,9 +1903,14 @@
             {
                 "d": "Netflix",
                 "p": 9
-            },
+            }
+        ]
+    },
+    {
+        "question": "Who do you text the most?",
+        "keys": [
             {
-                "d": "Who do you text the most?Significant Other",
+                "d": "Significant Other",
                 "p": 49
             },
             {
@@ -2042,7 +1951,7 @@
                 "p": 7
             },
             {
-                "d": "Cherry",
+                "d": "Tire",
                 "p": 5
             }
         ]
@@ -2148,31 +2057,6 @@
         ]
     },
     {
-        "question": "Name something you are happy to lose.",
-        "keys": [
-            {
-                "d": "Weight",
-                "p": 53
-            },
-            {
-                "d": "Virginity",
-                "p": 27
-            },
-            {
-                "d": "Debt",
-                "p": 6
-            },
-            {
-                "d": "Bad Influences",
-                "p": 2
-            },
-            {
-                "d": "Teeth",
-                "p": 2
-            }
-        ]
-    },
-    {
         "question": "Name an animal with horns.",
         "keys": [
             {
@@ -2194,31 +2078,6 @@
             {
                 "d": "Buck",
                 "p": 5
-            }
-        ]
-    },
-    {
-        "question": "Name an internet meme that features an animal.",
-        "keys": [
-            {
-                "d": "Socially Awkward Penguin",
-                "p": 16
-            },
-            {
-                "d": "Grumpy Cat",
-                "p": 15
-            },
-            {
-                "d": "Confession Bear",
-                "p": 14
-            },
-            {
-                "d": "Doge",
-                "p": 10
-            },
-            {
-                "d": "Insanity Wolf",
-                "p": 7
             }
         ]
     },
@@ -2351,8 +2210,12 @@
         "question": "Name something you do when you're home sick from school/work.",
         "keys": [
             {
-                "d": "Sleep 43Watch TV/Movies/Netflix (29)",
+                "d": "Sleep",
                 "p": 43
+            },
+            {
+                "d": "Watch TV/Movies/Netflix",
+                "p": 29
             },
             {
                 "d": "Play Video Games",
@@ -2394,39 +2257,14 @@
         ]
     },
     {
-        "question": "Name an awkward conversation you might have with your significant other.",
-        "keys": [
-            {
-                "d": "Time to break up",
-                "p": 14
-            },
-            {
-                "d": "Past relationships",
-                "p": 12
-            },
-            {
-                "d": "STDs",
-                "p": 10
-            },
-            {
-                "d": "Pregnant",
-                "p": 9
-            },
-            {
-                "d": "Cheating",
-                "p": 8
-            }
-        ]
-    },
-    {
         "question": "Name something someone might search for on google.",
         "keys": [
             {
-                "d": "Porn",
+                "d": "Adult content",
                 "p": 20
             },
             {
-                "d": "\"Hot To\"",
+                "d": "Shopping/Products",
                 "p": 12
             },
             {
@@ -2615,9 +2453,14 @@
             {
                 "d": "Worrying",
                 "p": 6
-            },
+            }
+        ]
+    },
+    {
+        "question": "Where is the best place to take a selfie?",
+        "keys": [
             {
-                "d": "Where is the best place to take a selfie?Bathroom",
+                "d": "Bathroom",
                 "p": 39
             },
             {
@@ -2635,52 +2478,6 @@
             {
                 "d": "Bedroom",
                 "p": 5
-            }
-        ]
-    },
-    {
-        "question": "Name something you would be embarrassed for your parents to find in your room.",
-        "keys": [
-            {
-                "d": "Sex Toys",
-                "p": 46
-            },
-            {
-                "d": "Porn",
-                "p": 21
-            },
-            {
-                "d": "Condoms",
-                "p": 11
-            },
-            {
-                "d": "Drugs",
-                "p": 4
-            },
-            {
-                "d": "Artwork",
-                "p": 3
-            }
-        ]
-    },
-    {
-        "question": "Name a hashtag you find annoying.",
-        "keys": [
-            {
-                "d": "Yolo",
-                "p": 26
-            },
-            {
-                "d": "All of them",
-                "p": 20
-            },
-            {
-                "d": "Blessed",
-                "p": 8
-            },
-            {
-                "d": "Swag",
-                "p": 7
             }
         ]
     },
@@ -2706,81 +2503,6 @@
             {
                 "d": "Peanuts",
                 "p": 9
-            }
-        ]
-    },
-    {
-        "question": "Name something you can't do on an airplane.",
-        "keys": [
-            {
-                "d": "Smoke",
-                "p": 35
-            },
-            {
-                "d": "Sex/Masturbate",
-                "p": 13
-            },
-            {
-                "d": "Say \"Bomb\"",
-                "p": 8
-            },
-            {
-                "d": "Carry a weapon",
-                "p": 4
-            },
-            {
-                "d": "Leave",
-                "p": 3
-            }
-        ]
-    },
-    {
-        "question": "Name something you are embarrassed to be afraid of.",
-        "keys": [
-            {
-                "d": "The Dark",
-                "p": 18
-            },
-            {
-                "d": "Spiders",
-                "p": 11
-            },
-            {
-                "d": "Bugs",
-                "p": 10
-            },
-            {
-                "d": "Heights",
-                "p": 9
-            },
-            {
-                "d": "Rejection/Opposite Sex",
-                "p": 8
-            }
-        ]
-    },
-    {
-        "question": "Name a slang word for an erection.",
-        "keys": [
-            {
-                "d": "Boner",
-                "p": 65
-            },
-            {
-                "d": "Hard On",
-                "p": 14
-            },
-            {
-                "d": "Wood",
-                "p": 7
-            },
-            {
-                "d": "Stiffy",
-                "p": 6
-            },
-            {
-                "d": "Pitched Tent",
-                "p": 2
             }
         ]
     },
@@ -2835,31 +2557,6 @@
         ]
     },
     {
-        "question": "Name something you wouldn't want someone to see in your browser history.",
-        "keys": [
-            {
-                "d": "Porn",
-                "p": 69
-            },
-            {
-                "d": "*I'm not kidding Reddit",
-                "p": 6
-            },
-            {
-                "d": "WebMD",
-                "p": 2
-            },
-            {
-                "d": "Spacedicks",
-                "p": 2
-            },
-            {
-                "d": "Fanfiction",
-                "p": 2
-            }
-        ]
-    },
-    {
         "question": "Name a business that is open after midnight.",
         "keys": [
             {
@@ -2910,56 +2607,6 @@
         ]
     },
     {
-        "question": "Name something people say when they are trying to end a relationship.",
-        "keys": [
-            {
-                "d": "it's me",
-                "p": 58
-            },
-            {
-                "d": "We need to talk",
-                "p": 7
-            },
-            {
-                "d": "Let's stay friends",
-                "p": 6
-            },
-            {
-                "d": "Fuck You/Fuck Off",
-                "p": 5
-            },
-            {
-                "d": "I'm sorry",
-                "p": 4
-            }
-        ]
-    },
-    {
-        "question": "Name a historical figure you think you could beat in a fist fight.",
-        "keys": [
-            {
-                "d": "Hellen Keller",
-                "p": 16
-            },
-            {
-                "d": "Gandhi",
-                "p": 15
-            },
-            {
-                "d": "Mother Theresa",
-                "p": 9
-            },
-            {
-                "d": "Napoleon Bonaparte",
-                "p": 7
-            },
-            {
-                "d": "Steven Hawking",
-                "p": 6
-            }
-        ]
-    },
-    {
         "question": "Name a musician people are embarrassed to like.",
         "keys": [
             {
@@ -2971,7 +2618,7 @@
                 "p": 19
             },
             {
-                "d": "Nicleback",
+                "d": "Nickleback",
                 "p": 15
             },
             {
