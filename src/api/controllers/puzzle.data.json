@@ -2655,5 +2655,3425 @@
                 "p": 4
             }
         ]
+    },
+    {
+        "question": "Name a type of ball you would be surprised to see a golfer tee off with.",
+        "keys": [
+            {
+                "d": "Basketball",
+                "p": 30
+            },
+            {
+                "d": "Football",
+                "p": 23
+            },
+            {
+                "d": "Baseball",
+                "p": 20
+            },
+            {
+                "d": "Tennis Ball",
+                "p": 6
+            },
+            {
+                "d": "Bowling Ball",
+                "p": 5
+            },
+            {
+                "d": "Soccer Ball",
+                "p": 5
+            },
+            {
+                "d": "Beach Ball",
+                "p": 3
+            },
+            {
+                "d": "Ping Pong Ball",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "If a witch was not paying attention to where she was flying, name something she might crash into.",
+        "keys": [
+            {
+                "d": "Tree",
+                "p": 45
+            },
+            {
+                "d": "Building",
+                "p": 24
+            },
+            {
+                "d": "Telephone Pole",
+                "p": 7
+            },
+            {
+                "d": "Power Line",
+                "p": 6
+            },
+            {
+                "d": "Plane",
+                "p": 5
+            },
+            {
+                "d": "Bird",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a beverage that is served at kids birthday party.",
+        "keys": [
+            {
+                "d": "Kool Aid",
+                "p": 36
+            },
+            {
+                "d": "Punch",
+                "p": 34
+            },
+            {
+                "d": "Soda",
+                "p": 16
+            },
+            {
+                "d": "Lemonade",
+                "p": 10
+            },
+            {
+                "d": "Milk",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a musical instrument that is too big to carry on an airplane.",
+        "keys": [
+            {
+                "d": "Tuba",
+                "p": 31
+            },
+            {
+                "d": "Piano",
+                "p": 28
+            },
+            {
+                "d": "Cello",
+                "p": 10
+            },
+            {
+                "d": "Harp",
+                "p": 9
+            },
+            {
+                "d": "Drums",
+                "p": 8
+            },
+            {
+                "d": "Bass",
+                "p": 5
+            },
+            {
+                "d": "Trombone",
+                "p": 4
+            },
+            {
+                "d": "Saxophone",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a bad sport for someone who is afraid of the water.",
+        "keys": [
+            {
+                "d": "Swimming",
+                "p": 33
+            },
+            {
+                "d": "Water Polo",
+                "p": 21
+            },
+            {
+                "d": "Water Skiing",
+                "p": 17
+            },
+            {
+                "d": "Diving",
+                "p": 11
+            },
+            {
+                "d": "Scuba",
+                "p": 6
+            },
+            {
+                "d": "Surfing",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something you might take with you for an overnight stay at the hospital.",
+        "keys": [
+            {
+                "d": "Pajamas",
+                "p": 29
+            },
+            {
+                "d": "Clothing",
+                "p": 18
+            },
+            {
+                "d": "Toothbrush",
+                "p": 17
+            },
+            {
+                "d": "Robe",
+                "p": 12
+            },
+            {
+                "d": "Book",
+                "p": 9
+            },
+            {
+                "d": "Comb",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something a hospital uses to transport patients.",
+        "keys": [
+            {
+                "d": "Ambulance",
+                "p": 31
+            },
+            {
+                "d": "Wheelchair",
+                "p": 23
+            },
+            {
+                "d": "Gurney",
+                "p": 22
+            },
+            {
+                "d": "Helicopter",
+                "p": 16
+            },
+            {
+                "d": "Hospital Bed",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name an animal we eat that would never eat us.",
+        "keys": [
+            {
+                "d": "Cow",
+                "p": 58
+            },
+            {
+                "d": "Chicken",
+                "p": 26
+            },
+            {
+                "d": "Pig",
+                "p": 4
+            },
+            {
+                "d": "Rabbit",
+                "p": 3
+            },
+            {
+                "d": "Deer",
+                "p": 2
+            },
+            {
+                "d": "Sheep",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Tell me a bad job for someone who hates horses.",
+        "keys": [
+            {
+                "d": "Jockey",
+                "p": 44
+            },
+            {
+                "d": "Stable Hand",
+                "p": 13
+            },
+            {
+                "d": "Horse Trainer",
+                "p": 12
+            },
+            {
+                "d": "Farmer",
+                "p": 9
+            },
+            {
+                "d": "Rancher",
+                "p": 6
+            },
+            {
+                "d": "Veterinarian",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name something on a Swiss Army knife that you would be surprised to see the Swiss Army fighting with.",
+        "keys": [
+            {
+                "d": "Can Opener",
+                "p": 29
+            },
+            {
+                "d": "Corkscrew",
+                "p": 17
+            },
+            {
+                "d": "Scissors",
+                "p": 14
+            },
+            {
+                "d": "File",
+                "p": 12
+            },
+            {
+                "d": "Nail Clippers",
+                "p": 9
+            },
+            {
+                "d": "Toothpick",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a fruit you never buy just one of.",
+        "keys": [
+            {
+                "d": "Grapes",
+                "p": 44
+            },
+            {
+                "d": "Apple",
+                "p": 14
+            },
+            {
+                "d": "Orange",
+                "p": 13
+            },
+            {
+                "d": "Banana",
+                "p": 12
+            },
+            {
+                "d": "Strawberry",
+                "p": 8
+            },
+            {
+                "d": "Cherry",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a holiday that people wear special colors for.",
+        "keys": [
+            {
+                "d": "Christmas",
+                "p": 51
+            },
+            {
+                "d": "St. Patrick's Day",
+                "p": 28
+            },
+            {
+                "d": "Fourth of July",
+                "p": 12
+            },
+            {
+                "d": "Easter",
+                "p": 3
+            },
+            {
+                "d": "Halloween",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a performer or group whose music seems to span over generations.",
+        "keys": [
+            {
+                "d": "Elvis",
+                "p": 36
+            },
+            {
+                "d": "Elvis Presley",
+                "p": 36
+            },
+            {
+                "d": "Presley",
+                "p": 36
+            },
+            {
+                "d": "Sinatra",
+                "p": 18
+            },
+            {
+                "d": "Frank Sinatra",
+                "p": 18
+            }
+        ]
+    },
+    {
+        "question": "Name something a man with a big belly looks like he just swallowed.",
+        "keys": [
+            {
+                "d": "Watermelon",
+                "p": 43
+            },
+            {
+                "d": "Ball",
+                "p": 20
+            },
+            {
+                "d": "Balloon",
+                "p": 7
+            },
+            {
+                "d": "Keg",
+                "p": 6
+            },
+            {
+                "d": "Tire",
+                "p": 3
+            },
+            {
+                "d": "Baby",
+                "p": 3
+            },
+            {
+                "d": "Whale",
+                "p": 3
+            },
+            {
+                "d": "Pillow",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something your parents still give you.",
+        "keys": [
+            {
+                "d": "Love",
+                "p": 30
+            },
+            {
+                "d": "Money",
+                "p": 27
+            },
+            {
+                "d": "Advice",
+                "p": 12
+            },
+            {
+                "d": "Gifts",
+                "p": 8
+            },
+            {
+                "d": "Grief",
+                "p": 7
+            },
+            {
+                "d": "Clothes",
+                "p": 5
+            },
+            {
+                "d": "Food",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "If a bad magician yanked a tablecloth from a fully set table, name something that might hit the ground.",
+        "keys": [
+            {
+                "d": "Plate",
+                "p": 40
+            },
+            {
+                "d": "Glass",
+                "p": 29
+            },
+            {
+                "d": "Silverware",
+                "p": 20
+            },
+            {
+                "d": "Candles",
+                "p": 4
+            },
+            {
+                "d": "Food",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something a robber would hate to have happen to his car while he was inside robbing a bank.",
+        "keys": [
+            {
+                "d": "Stolen",
+                "p": 29
+            },
+            {
+                "d": "Towed",
+                "p": 20
+            },
+            {
+                "d": "Not Start",
+                "p": 15
+            },
+            {
+                "d": "Ticketed",
+                "p": 9
+            },
+            {
+                "d": "Accident",
+                "p": 8
+            },
+            {
+                "d": "Slashed Tires",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a famous Mark.",
+        "keys": [
+            {
+                "d": "McGuire",
+                "p": 27
+            },
+            {
+                "d": "Mark McGuire",
+                "p": 27
+            },
+            {
+                "d": "Twain",
+                "p": 26
+            },
+            {
+                "d": "Mark Twain",
+                "p": 26
+            },
+            {
+                "d": "Hamill",
+                "p": 10
+            },
+            {
+                "d": "Mark Hamill",
+                "p": 10
+            },
+            {
+                "d": "Mark Wahlberg",
+                "p": 4
+            },
+            {
+                "d": "Wahlberg",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something a Ken doll has that the average guy probably wishes he had too.",
+        "keys": [
+            {
+                "d": "Barbie",
+                "p": 32
+            },
+            {
+                "d": "Muscles",
+                "p": 29
+            },
+            {
+                "d": "Convertible",
+                "p": 10
+            },
+            {
+                "d": "Handsome",
+                "p": 8
+            },
+            {
+                "d": "Hair",
+                "p": 7
+            },
+            {
+                "d": "Tan",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something a little kid might do on the furniture that would tick off his parents.",
+        "keys": [
+            {
+                "d": "Jump",
+                "p": 40
+            },
+            {
+                "d": "Pee",
+                "p": 14
+            },
+            {
+                "d": "Draw",
+                "p": 13
+            },
+            {
+                "d": "Spill",
+                "p": 13
+            },
+            {
+                "d": "Eat",
+                "p": 11
+            }
+        ]
+    },
+    {
+        "question": "Name a country the U.S. imports a lot of things from.",
+        "keys": [
+            {
+                "d": "China",
+                "p": 51
+            },
+            {
+                "d": "Japan",
+                "p": 27
+            },
+            {
+                "d": "Mexico",
+                "p": 11
+            },
+            {
+                "d": "Taiwan",
+                "p": 4
+            },
+            {
+                "d": "England",
+                "p": 3
+            },
+            {
+                "d": "France",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "When Hugh Hefner dies name something he might ask to be buried with.",
+        "keys": [
+            {
+                "d": "Bunnies",
+                "p": 35
+            },
+            {
+                "d": "Playboy",
+                "p": 20
+            },
+            {
+                "d": "Money",
+                "p": 20
+            },
+            {
+                "d": "Bathrobe",
+                "p": 9
+            },
+            {
+                "d": "Calendar",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name something people pour milk in at breakfast.",
+        "keys": [
+            {
+                "d": "Cereal",
+                "p": 60
+            },
+            {
+                "d": "Glass",
+                "p": 16
+            },
+            {
+                "d": "Oatmeal",
+                "p": 7
+            },
+            {
+                "d": "Coffee",
+                "p": 5
+            },
+            {
+                "d": "Pancake Mix",
+                "p": 3
+            },
+            {
+                "d": "Tea",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something a person might do before going to bed that would make it hard for them to get right to sleep.",
+        "keys": [
+            {
+                "d": "Coffee",
+                "p": 35
+            },
+            {
+                "d": "Eat",
+                "p": 28
+            },
+            {
+                "d": "Exercise",
+                "p": 13
+            },
+            {
+                "d": "Horror Movie",
+                "p": 9
+            },
+            {
+                "d": "Argument",
+                "p": 4
+            },
+            {
+                "d": "Shower",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something a person cannot legally do without a license.",
+        "keys": [
+            {
+                "d": "Drive",
+                "p": 68
+            },
+            {
+                "d": "Marriage",
+                "p": 9
+            },
+            {
+                "d": "Hunt",
+                "p": 7
+            },
+            {
+                "d": "Fish",
+                "p": 6
+            },
+            {
+                "d": "Practice Medicine",
+                "p": 4
+            },
+            {
+                "d": "Cut Hair",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something that might be stuffed inside a ravioli. (\"Meat\" is not a answer. Be more specific.)",
+        "keys": [
+            {
+                "d": "Beef",
+                "p": 41
+            },
+            {
+                "d": "Cheese",
+                "p": 34
+            },
+            {
+                "d": "Sauce",
+                "p": 7
+            },
+            {
+                "d": "Chicken",
+                "p": 5
+            },
+            {
+                "d": "Lobster",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something you might find right next to the bathtub.",
+        "keys": [
+            {
+                "d": "Soap",
+                "p": 26
+            },
+            {
+                "d": "Toilet",
+                "p": 24
+            },
+            {
+                "d": "Mat",
+                "p": 13
+            },
+            {
+                "d": "Towel",
+                "p": 12
+            },
+            {
+                "d": "Towel Rack",
+                "p": 8
+            },
+            {
+                "d": "Sink",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something that might not look right if you got ready without looking in the mirror.",
+        "keys": [
+            {
+                "d": "Hair",
+                "p": 50
+            },
+            {
+                "d": "Makeup",
+                "p": 35
+            },
+            {
+                "d": "Clothing",
+                "p": 9
+            },
+            {
+                "d": "Tie",
+                "p": 4
+            },
+            {
+                "d": "Toupee",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something you would prefer to do on Sunday morning instead of going to church.",
+        "keys": [
+            {
+                "d": "Sleep",
+                "p": 61
+            },
+            {
+                "d": "Television",
+                "p": 10
+            },
+            {
+                "d": "Exercise",
+                "p": 7
+            },
+            {
+                "d": "Breakfast",
+                "p": 6
+            },
+            {
+                "d": "Movie",
+                "p": 5
+            },
+            {
+                "d": "Shop",
+                "p": 4
+            },
+            {
+                "d": "Read Newspaper",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a color the sky turns when the weather gets bad.",
+        "keys": [
+            {
+                "d": "Gray",
+                "p": 54
+            },
+            {
+                "d": "Black",
+                "p": 23
+            },
+            {
+                "d": "Green",
+                "p": 6
+            },
+            {
+                "d": "Dark Blue",
+                "p": 5
+            },
+            {
+                "d": "Red",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something in nature a poet might write about.",
+        "keys": [
+            {
+                "d": "Trees",
+                "p": 33
+            },
+            {
+                "d": "Flowers",
+                "p": 17
+            },
+            {
+                "d": "Sunset",
+                "p": 15
+            },
+            {
+                "d": "Rivers",
+                "p": 9
+            },
+            {
+                "d": "Birds",
+                "p": 8
+            },
+            {
+                "d": "Sky",
+                "p": 8
+            }
+        ]
+    },
+    {
+        "question": "Name something you would see inside a taxicab.",
+        "keys": [
+            {
+                "d": "Meter",
+                "p": 56
+            },
+            {
+                "d": "Driver",
+                "p": 15
+            },
+            {
+                "d": "License",
+                "p": 8
+            },
+            {
+                "d": "Air Freshener",
+                "p": 4
+            },
+            {
+                "d": "Ads",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something a church might be filled with.",
+        "keys": [
+            {
+                "d": "People",
+                "p": 52
+            },
+            {
+                "d": "Pews",
+                "p": 19
+            },
+            {
+                "d": "Candles",
+                "p": 7
+            },
+            {
+                "d": "Bibles",
+                "p": 6
+            },
+            {
+                "d": "God",
+                "p": 3
+            },
+            {
+                "d": "Love",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something that starts with \"the gift of _______.\"",
+        "keys": [
+            {
+                "d": "Life",
+                "p": 28
+            },
+            {
+                "d": "Love",
+                "p": 22
+            },
+            {
+                "d": "Gab",
+                "p": 13
+            },
+            {
+                "d": "God",
+                "p": 10
+            },
+            {
+                "d": "Giving",
+                "p": 7
+            },
+            {
+                "d": "Magi",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "According to women: What do men consider more important than marriage?",
+        "keys": [
+            {
+                "d": "Career",
+                "p": 28
+            },
+            {
+                "d": "Money",
+                "p": 21
+            },
+            {
+                "d": "Other Women",
+                "p": 16
+            },
+            {
+                "d": "Sports",
+                "p": 12
+            },
+            {
+                "d": "Cars",
+                "p": 6
+            },
+            {
+                "d": "Freedom",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something you might do when your hair is a mess.",
+        "keys": [
+            {
+                "d": "Wear Hat",
+                "p": 34
+            },
+            {
+                "d": "Comb It",
+                "p": 33
+            },
+            {
+                "d": "Wash It",
+                "p": 11
+            },
+            {
+                "d": "Hairdresser",
+                "p": 9
+            },
+            {
+                "d": "Scarf",
+                "p": 4
+            },
+            {
+                "d": "Ponytail",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something in your home you leave plugged in all the time.",
+        "keys": [
+            {
+                "d": "Telephone",
+                "p": 37
+            },
+            {
+                "d": "Refrigerator",
+                "p": 17
+            },
+            {
+                "d": "Lamp",
+                "p": 10
+            },
+            {
+                "d": "Clock",
+                "p": 10
+            },
+            {
+                "d": "Microwave",
+                "p": 8
+            },
+            {
+                "d": "Toaster",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name a way you can tell that a fruit has gone bad.",
+        "keys": [
+            {
+                "d": "Color",
+                "p": 36
+            },
+            {
+                "d": "Mushy",
+                "p": 28
+            },
+            {
+                "d": "Smells",
+                "p": 22
+            },
+            {
+                "d": "Shriveled",
+                "p": 6
+            },
+            {
+                "d": "Moldy",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a type of tree that grows very tall.",
+        "keys": [
+            {
+                "d": "Redwood",
+                "p": 29
+            },
+            {
+                "d": "Oak",
+                "p": 25
+            },
+            {
+                "d": "Pine",
+                "p": 17
+            },
+            {
+                "d": "Palm",
+                "p": 8
+            },
+            {
+                "d": "Cypress",
+                "p": 4
+            },
+            {
+                "d": "Elm",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a city in Canada everyone has heard of.",
+        "keys": [
+            {
+                "d": "Toronto",
+                "p": 38
+            },
+            {
+                "d": "Montreal",
+                "p": 22
+            },
+            {
+                "d": "Vancouver",
+                "p": 16
+            },
+            {
+                "d": "Quebec City",
+                "p": 12
+            },
+            {
+                "d": "Niagra Falls",
+                "p": 5
+            },
+            {
+                "d": "Calgary",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a reason a husband might send his wife flowers.",
+        "keys": [
+            {
+                "d": "Anniversary",
+                "p": 51
+            },
+            {
+                "d": "Apology",
+                "p": 23
+            },
+            {
+                "d": "Birthday",
+                "p": 12
+            },
+            {
+                "d": "Valentine's Day",
+                "p": 6
+            },
+            {
+                "d": "Mother's Day",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a state where disaster could strike at any time.",
+        "keys": [
+            {
+                "d": "California",
+                "p": 54
+            },
+            {
+                "d": "Florida",
+                "p": 15
+            },
+            {
+                "d": "New York",
+                "p": 9
+            },
+            {
+                "d": "Hawaii",
+                "p": 3
+            },
+            {
+                "d": "Kansas",
+                "p": 3
+            },
+            {
+                "d": "Louisiana",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something you might find on a miniature golf course.",
+        "keys": [
+            {
+                "d": "Golf Balls",
+                "p": 44
+            },
+            {
+                "d": "Golf Clubs",
+                "p": 20
+            },
+            {
+                "d": "Windmill",
+                "p": 19
+            },
+            {
+                "d": "Holes",
+                "p": 5
+            },
+            {
+                "d": "Astroturf",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a famous judge.",
+        "keys": [
+            {
+                "d": "Judy",
+                "p": 40
+            },
+            {
+                "d": "Judge Judy",
+                "p": 40
+            },
+            {
+                "d": "Joe Brown",
+                "p": 19
+            },
+            {
+                "d": "Sandra Day O'Connor",
+                "p": 12
+            },
+            {
+                "d": "Mathis",
+                "p": 9
+            },
+            {
+                "d": "Ito",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something you might put on your armpits if you ran out of deodorant.",
+        "keys": [
+            {
+                "d": "Perfume",
+                "p": 37
+            },
+            {
+                "d": "Baby Powder",
+                "p": 25
+            },
+            {
+                "d": "Baking Soda",
+                "p": 15
+            },
+            {
+                "d": "Soap",
+                "p": 12
+            },
+            {
+                "d": "Lotion",
+                "p": 3
+            },
+            {
+                "d": "Lemon",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something that you can find in the sky that God did not put there.",
+        "keys": [
+            {
+                "d": "Planes",
+                "p": 64
+            },
+            {
+                "d": "Satellites",
+                "p": 16
+            },
+            {
+                "d": "Smog",
+                "p": 10
+            },
+            {
+                "d": "Hot Air Balloons",
+                "p": 3
+            },
+            {
+                "d": "Skyscrapers",
+                "p": 3
+            },
+            {
+                "d": "Sky Divers",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something that might be stolen from your car.",
+        "keys": [
+            {
+                "d": "Stereo",
+                "p": 52
+            },
+            {
+                "d": "GPS",
+                "p": 12
+            },
+            {
+                "d": "CDs",
+                "p": 10
+            },
+            {
+                "d": "Money",
+                "p": 9
+            },
+            {
+                "d": "Cell Phone",
+                "p": 3
+            },
+            {
+                "d": "Laptop",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a phrase that ends with the word \"mouth.\"",
+        "keys": [
+            {
+                "d": "Big Mouth",
+                "p": 41
+            },
+            {
+                "d": "Big",
+                "p": 41
+            },
+            {
+                "d": "Loudmouth",
+                "p": 20
+            },
+            {
+                "d": "Potty Mouth",
+                "p": 8
+            },
+            {
+                "d": "Bad Mouth",
+                "p": 7
+            },
+            {
+                "d": "Bad",
+                "p": 7
+            },
+            {
+                "d": "Motormouth",
+                "p": 5
+            },
+            {
+                "d": "Open Mouth",
+                "p": 4
+            },
+            {
+                "d": "Open",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Tell me something people cook on a backyard grill.",
+        "keys": [
+            {
+                "d": "Hamburgers",
+                "p": 46
+            },
+            {
+                "d": "Steak",
+                "p": 35
+            },
+            {
+                "d": "Hot Dogs",
+                "p": 7
+            },
+            {
+                "d": "Chicken",
+                "p": 6
+            },
+            {
+                "d": "Ribs",
+                "p": 4
+            },
+            {
+                "d": "Pork Chops",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "If you put food outside for a stray cat, name another animal that might eat it.",
+        "keys": [
+            {
+                "d": "Raccoon",
+                "p": 40
+            },
+            {
+                "d": "Dog",
+                "p": 20
+            },
+            {
+                "d": "Rat",
+                "p": 9
+            },
+            {
+                "d": "Bird",
+                "p": 8
+            },
+            {
+                "d": "Squirrel",
+                "p": 7
+            },
+            {
+                "d": "Skunk",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name the most effective one-word command.",
+        "keys": [
+            {
+                "d": "Stop",
+                "p": 41
+            },
+            {
+                "d": "No",
+                "p": 31
+            },
+            {
+                "d": "Sit",
+                "p": 8
+            },
+            {
+                "d": "Now",
+                "p": 4
+            },
+            {
+                "d": "Come",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Besides skis, name something people use on a ski slope?",
+        "keys": [
+            {
+                "d": "Snowboard",
+                "p": 60
+            },
+            {
+                "d": "Poles",
+                "p": 25
+            },
+            {
+                "d": "Lift",
+                "p": 5
+            },
+            {
+                "d": "Sled",
+                "p": 3
+            },
+            {
+                "d": "Snowmobile",
+                "p": 2
+            },
+            {
+                "d": "Ski Mask",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something people hide on purpose and can't remember where they put it.",
+        "keys": [
+            {
+                "d": "Money",
+                "p": 67
+            },
+            {
+                "d": "Keys",
+                "p": 16
+            },
+            {
+                "d": "Jewelry",
+                "p": 3
+            },
+            {
+                "d": "Teeth",
+                "p": 3
+            },
+            {
+                "d": "Papers",
+                "p": 2
+            },
+            {
+                "d": "Creditcards",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a famous \"Jerry\".",
+        "keys": [
+            {
+                "d": "Springer",
+                "p": 41
+            },
+            {
+                "d": "Lewis",
+                "p": 35
+            },
+            {
+                "d": "Seinfeld",
+                "p": 15
+            },
+            {
+                "d": "Ben And Jerry",
+                "p": 2
+            },
+            {
+                "d": "Bailey",
+                "p": 2
+            },
+            {
+                "d": "Phillips",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a reason why a restaurant might not make a customer pay for his lunch.",
+        "keys": [
+            {
+                "d": "Bugs",
+                "p": 38
+            },
+            {
+                "d": "Bad Service",
+                "p": 19
+            },
+            {
+                "d": "Awful Food",
+                "p": 16
+            },
+            {
+                "d": "Hair",
+                "p": 12
+            },
+            {
+                "d": "Time",
+                "p": 4
+            },
+            {
+                "d": "Birthday",
+                "p": 2
+            },
+            {
+                "d": "Sale",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something you couldn't do without your lips.",
+        "keys": [
+            {
+                "d": "Kiss",
+                "p": 46
+            },
+            {
+                "d": "Talk",
+                "p": 19
+            },
+            {
+                "d": "Whistle",
+                "p": 9
+            },
+            {
+                "d": "Eat",
+                "p": 6
+            },
+            {
+                "d": "Drink",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name a fruit that's messy when you eat it.",
+        "keys": [
+            {
+                "d": "Watermelon",
+                "p": 45
+            },
+            {
+                "d": "Orange",
+                "p": 18
+            },
+            {
+                "d": "Peach",
+                "p": 13
+            },
+            {
+                "d": "Mango",
+                "p": 10
+            },
+            {
+                "d": "Plum",
+                "p": 5
+            },
+            {
+                "d": "Strawberry",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something you'd expect to see in psychiatrist's office.",
+        "keys": [
+            {
+                "d": "Couch",
+                "p": 56
+            },
+            {
+                "d": "Patients",
+                "p": 14
+            },
+            {
+                "d": "Diploma",
+                "p": 12
+            },
+            {
+                "d": "Certificate",
+                "p": 12
+            },
+            {
+                "d": "Books",
+                "p": 5
+            },
+            {
+                "d": "Picture",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a place people go to read in peace.",
+        "keys": [
+            {
+                "d": "Library",
+                "p": 57
+            },
+            {
+                "d": "Park",
+                "p": 15
+            },
+            {
+                "d": "Bathroom",
+                "p": 9
+            },
+            {
+                "d": "Bedroom",
+                "p": 9
+            },
+            {
+                "d": "Bookstore",
+                "p": 4
+            },
+            {
+                "d": "Beach",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something a woman loses that makes her cry when she finds it.",
+        "keys": [
+            {
+                "d": "Ring",
+                "p": 57
+            },
+            {
+                "d": "Child",
+                "p": 13
+            },
+            {
+                "d": "Weight",
+                "p": 6
+            },
+            {
+                "d": "Photograph",
+                "p": 6
+            },
+            {
+                "d": "Love",
+                "p": 4
+            },
+            {
+                "d": "Purse",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something in your house that has faded.",
+        "keys": [
+            {
+                "d": "Clothing",
+                "p": 40
+            },
+            {
+                "d": "Curtains",
+                "p": 18
+            },
+            {
+                "d": "Paint",
+                "p": 12
+            },
+            {
+                "d": "Funiture",
+                "p": 9
+            },
+            {
+                "d": "Rugs",
+                "p": 7
+            },
+            {
+                "d": "Linens",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a famous person, living or dead, whose last name is \"Collins\".",
+        "keys": [
+            {
+                "d": "Joan",
+                "p": 49
+            },
+            {
+                "d": "Phil",
+                "p": 26
+            },
+            {
+                "d": "Judy",
+                "p": 7
+            },
+            {
+                "d": "Tom",
+                "p": 6
+            },
+            {
+                "d": "Doug",
+                "p": 5
+            },
+            {
+                "d": "Jackie",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Give me a word that rhymes with \"Pun\".",
+        "keys": [
+            {
+                "d": "Fun",
+                "p": 43
+            },
+            {
+                "d": "Sun",
+                "p": 17
+            },
+            {
+                "d": "Bun",
+                "p": 13
+            },
+            {
+                "d": "Run",
+                "p": 10
+            },
+            {
+                "d": "Done",
+                "p": 5
+            },
+            {
+                "d": "Hun",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name an occupation whose members wear business suits.",
+        "keys": [
+            {
+                "d": "Lawyers",
+                "p": 54
+            },
+            {
+                "d": "Banker",
+                "p": 9
+            },
+            {
+                "d": "Salesman",
+                "p": 8
+            },
+            {
+                "d": "Accountant",
+                "p": 7
+            },
+            {
+                "d": "Executive",
+                "p": 6
+            },
+            {
+                "d": "Broker",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a chain of gas stations.",
+        "keys": [
+            {
+                "d": "Texaco",
+                "p": 27
+            },
+            {
+                "d": "Arco",
+                "p": 22
+            },
+            {
+                "d": "Shell",
+                "p": 14
+            },
+            {
+                "d": "Chevron",
+                "p": 8
+            },
+            {
+                "d": "Conoco",
+                "p": 8
+            },
+            {
+                "d": "Mobile",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name another word for motion picture.",
+        "keys": [
+            {
+                "d": "Movie",
+                "p": 56
+            },
+            {
+                "d": "Film",
+                "p": 18
+            },
+            {
+                "d": "Flick",
+                "p": 6
+            },
+            {
+                "d": "Talkie",
+                "p": 5
+            },
+            {
+                "d": "Feature",
+                "p": 5
+            },
+            {
+                "d": "Cinema",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a place where you're sometimes bothered by the person sitting behind you.",
+        "keys": [
+            {
+                "d": "Movies",
+                "p": 48
+            },
+            {
+                "d": "Bus",
+                "p": 21
+            },
+            {
+                "d": "Restaurant",
+                "p": 11
+            },
+            {
+                "d": "Airplane",
+                "p": 6
+            },
+            {
+                "d": "Church",
+                "p": 5
+            },
+            {
+                "d": "Office",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something you need when you do yard work.",
+        "keys": [
+            {
+                "d": "Rake",
+                "p": 36
+            },
+            {
+                "d": "Lawn Mower",
+                "p": 24
+            },
+            {
+                "d": "Gloves",
+                "p": 21
+            },
+            {
+                "d": "Hoe",
+                "p": 4
+            },
+            {
+                "d": "Hat",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Tell me a food that starts with the letter \"L\".",
+        "keys": [
+            {
+                "d": "Lettuce",
+                "p": 54
+            },
+            {
+                "d": "Lasagna",
+                "p": 19
+            },
+            {
+                "d": "Linguine",
+                "p": 4
+            },
+            {
+                "d": "Lamb",
+                "p": 4
+            },
+            {
+                "d": "Licorice",
+                "p": 3
+            },
+            {
+                "d": "Lima Beans",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a food that goes great with potato chips.",
+        "keys": [
+            {
+                "d": "Dips",
+                "p": 44
+            },
+            {
+                "d": "Hamburgers",
+                "p": 28
+            },
+            {
+                "d": "Hot Dog",
+                "p": 12
+            },
+            {
+                "d": "Sandwiches",
+                "p": 8
+            },
+            {
+                "d": "Casserole",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a U.S. President whose name ends in \"son\".",
+        "keys": [
+            {
+                "d": "Thomas Jefferson",
+                "p": 31
+            },
+            {
+                "d": "Andrew Jackson",
+                "p": 30
+            },
+            {
+                "d": "Lyndon B. Johnson",
+                "p": 19
+            },
+            {
+                "d": "Woodrow Wilson",
+                "p": 9
+            },
+            {
+                "d": "James Madison",
+                "p": 5
+            },
+            {
+                "d": "W. Henry Harrison",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Tell me a nickname for a man named Robert.",
+        "keys": [
+            {
+                "d": "Bob",
+                "p": 42
+            },
+            {
+                "d": "Rob",
+                "p": 28
+            },
+            {
+                "d": "Bobby",
+                "p": 11
+            },
+            {
+                "d": "Robby",
+                "p": 10
+            },
+            {
+                "d": "Bert",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name a place where it's important for children to sit still.",
+        "keys": [
+            {
+                "d": "Church",
+                "p": 53
+            },
+            {
+                "d": "Dentist",
+                "p": 10
+            },
+            {
+                "d": "Restaurant",
+                "p": 9
+            },
+            {
+                "d": "School",
+                "p": 9
+            },
+            {
+                "d": "Barber Shop",
+                "p": 5
+            },
+            {
+                "d": "Movie",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name someone who usually wears a cape.",
+        "keys": [
+            {
+                "d": "Batman",
+                "p": 48
+            },
+            {
+                "d": "Superman",
+                "p": 35
+            },
+            {
+                "d": "Zorro",
+                "p": 6
+            },
+            {
+                "d": "Witch",
+                "p": 2
+            },
+            {
+                "d": "Dracula",
+                "p": 2
+            },
+            {
+                "d": "Magician",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something you associate with Eve from the Bible.",
+        "keys": [
+            {
+                "d": "Adam",
+                "p": 43
+            },
+            {
+                "d": "Apple",
+                "p": 34
+            },
+            {
+                "d": "Snake",
+                "p": 9
+            },
+            {
+                "d": "Sin",
+                "p": 5
+            },
+            {
+                "d": "Garden",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "If there were a musical named \"Dogs\", name a prop they would probably use on stage.",
+        "keys": [
+            {
+                "d": "Fire Hydrant",
+                "p": 48
+            },
+            {
+                "d": "Big Bone",
+                "p": 29
+            },
+            {
+                "d": "Dog House",
+                "p": 5
+            },
+            {
+                "d": "Tree",
+                "p": 4
+            },
+            {
+                "d": "Squeaky Toy",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something people do to \"get smart\".",
+        "keys": [
+            {
+                "d": "Read",
+                "p": 43
+            },
+            {
+                "d": "Study",
+                "p": 27
+            },
+            {
+                "d": "Go To School",
+                "p": 20
+            },
+            {
+                "d": "Crossword Puzzle",
+                "p": 3
+            },
+            {
+                "d": "Smart Pills",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something specific that shines at night.",
+        "keys": [
+            {
+                "d": "Stars",
+                "p": 36
+            },
+            {
+                "d": "Moon",
+                "p": 33
+            },
+            {
+                "d": "Lights",
+                "p": 13
+            },
+            {
+                "d": "Fireflies",
+                "p": 4
+            },
+            {
+                "d": "Eyes",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name an insect that most people find harmless.",
+        "keys": [
+            {
+                "d": "Ants",
+                "p": 48
+            },
+            {
+                "d": "Fly",
+                "p": 20
+            },
+            {
+                "d": "Ladybug",
+                "p": 18
+            },
+            {
+                "d": "Roly poly",
+                "p": 4
+            },
+            {
+                "d": "Caterpillar",
+                "p": 2
+            },
+            {
+                "d": "Daddy long legs",
+                "p": 2
+            },
+            {
+                "d": "Butterfly",
+                "p": 2
+            },
+            {
+                "d": "Earth Worm",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Which country's tourists are the biggest complainers?",
+        "keys": [
+            {
+                "d": "United States",
+                "p": 43
+            },
+            {
+                "d": "France",
+                "p": 36
+            },
+            {
+                "d": "Mexico",
+                "p": 3
+            },
+            {
+                "d": "England",
+                "p": 3
+            },
+            {
+                "d": "China",
+                "p": 3
+            },
+            {
+                "d": "Japan",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a monthly bill that is usually less than a hundred dollars.",
+        "keys": [
+            {
+                "d": "Phone",
+                "p": 43
+            },
+            {
+                "d": "Cable",
+                "p": 23
+            },
+            {
+                "d": "Water",
+                "p": 15
+            },
+            {
+                "d": "Power",
+                "p": 9
+            },
+            {
+                "d": "Gas",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something people wear that is white.",
+        "keys": [
+            {
+                "d": "T-Shirt",
+                "p": 27
+            },
+            {
+                "d": "Blouse",
+                "p": 20
+            },
+            {
+                "d": "Wedding Dress",
+                "p": 18
+            },
+            {
+                "d": "Underwear",
+                "p": 14
+            },
+            {
+                "d": "Shoes",
+                "p": 7
+            },
+            {
+                "d": "Socks",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name an animal that doesn't have a leg to stand on.",
+        "keys": [
+            {
+                "d": "Snake",
+                "p": 42
+            },
+            {
+                "d": "Fish",
+                "p": 29
+            },
+            {
+                "d": "Whale",
+                "p": 8
+            },
+            {
+                "d": "Seal",
+                "p": 7
+            },
+            {
+                "d": "Worm",
+                "p": 4
+            },
+            {
+                "d": "Dolphin",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something a man needs to really enjoy a football game.",
+        "keys": [
+            {
+                "d": "Beer",
+                "p": 56
+            },
+            {
+                "d": "Television",
+                "p": 17
+            },
+            {
+                "d": "Food",
+                "p": 12
+            },
+            {
+                "d": "Friend",
+                "p": 5
+            },
+            {
+                "d": "Couch",
+                "p": 3
+            },
+            {
+                "d": "Peace and Quiet",
+                "p": 2
+            },
+            {
+                "d": "Quiet",
+                "p": 2
+            },
+            {
+                "d": "Peace",
+                "p": 2
+            },
+            {
+                "d": "Ticket",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a type of ring that people wear.",
+        "keys": [
+            {
+                "d": "Wedding",
+                "p": 58
+            },
+            {
+                "d": "Diamond",
+                "p": 12
+            },
+            {
+                "d": "Engagement",
+                "p": 11
+            },
+            {
+                "d": "Earring",
+                "p": 5
+            },
+            {
+                "d": "Class ring",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something that has a needle.",
+        "keys": [
+            {
+                "d": "Sewing Machine",
+                "p": 47
+            },
+            {
+                "d": "Syringe",
+                "p": 21
+            },
+            {
+                "d": "Record Player",
+                "p": 14
+            },
+            {
+                "d": "Tattoo Machine",
+                "p": 9
+            },
+            {
+                "d": "Odometer",
+                "p": 4
+            },
+            {
+                "d": "Tree",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Tell me how many glasses of water the average person drinks a day.",
+        "keys": [
+            {
+                "d": "Eight",
+                "p": 36
+            },
+            {
+                "d": "Two",
+                "p": 20
+            },
+            {
+                "d": "Three",
+                "p": 14
+            },
+            {
+                "d": "Five",
+                "p": 10
+            },
+            {
+                "d": "Six",
+                "p": 7
+            },
+            {
+                "d": "Ten",
+                "p": 7
+            },
+            {
+                "d": "Four",
+                "p": 3
+            },
+            {
+                "d": "One",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "If your shirt accidentally caught on fire, what would be the best thing to do?",
+        "keys": [
+            {
+                "d": "Drop And Roll",
+                "p": 69
+            },
+            {
+                "d": "Rip it off",
+                "p": 17
+            },
+            {
+                "d": "Splash water on it",
+                "p": 8
+            },
+            {
+                "d": "Jump In Pool",
+                "p": 3
+            },
+            {
+                "d": "Jump in shower",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something your boss does when you show up late for work.",
+        "keys": [
+            {
+                "d": "Yells",
+                "p": 40
+            },
+            {
+                "d": "Dirty look",
+                "p": 22
+            },
+            {
+                "d": "Nothing",
+                "p": 15
+            },
+            {
+                "d": "Looks at watch",
+                "p": 7
+            },
+            {
+                "d": "Docks pay",
+                "p": 6
+            },
+            {
+                "d": "Writes review",
+                "p": 4
+            },
+            {
+                "d": "Laughs",
+                "p": 3
+            },
+            {
+                "d": "Fires you",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a type of cheese Americans like the best.",
+        "keys": [
+            {
+                "d": "Cheddar",
+                "p": 40
+            },
+            {
+                "d": "American",
+                "p": 39
+            },
+            {
+                "d": "Swiss",
+                "p": 15
+            },
+            {
+                "d": "Mozzarella",
+                "p": 2
+            },
+            {
+                "d": "Provolone",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name the toughest part about owning an elephant as a pet.",
+        "keys": [
+            {
+                "d": "Cleaning up after it",
+                "p": 33
+            },
+            {
+                "d": "Feeding him",
+                "p": 31
+            },
+            {
+                "d": "Too big",
+                "p": 16
+            },
+            {
+                "d": "No room",
+                "p": 11
+            },
+            {
+                "d": "Bathing",
+                "p": 9
+            }
+        ]
+    },
+    {
+        "question": "Name something that gives off light.",
+        "keys": [
+            {
+                "d": "Lamp",
+                "p": 45
+            },
+            {
+                "d": "Sun",
+                "p": 20
+            },
+            {
+                "d": "Flashlight",
+                "p": 11
+            },
+            {
+                "d": "Candle",
+                "p": 10
+            },
+            {
+                "d": "Moon",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a reason why you choose one job over another.",
+        "keys": [
+            {
+                "d": "Salary",
+                "p": 69
+            },
+            {
+                "d": "Enjoy the work",
+                "p": 13
+            },
+            {
+                "d": "Benefits",
+                "p": 8
+            },
+            {
+                "d": "Location",
+                "p": 4
+            },
+            {
+                "d": "Advancement",
+                "p": 2
+            },
+            {
+                "d": "Boss",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name a reason a kiss might be bad.",
+        "keys": [
+            {
+                "d": "Cheating",
+                "p": 31
+            },
+            {
+                "d": "Germs",
+                "p": 26
+            },
+            {
+                "d": "Bad Breath",
+                "p": 19
+            },
+            {
+                "d": "Unwanted",
+                "p": 10
+            },
+            {
+                "d": "Too Wet",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name something pack rats have a hard time throwing out.",
+        "keys": [
+            {
+                "d": "Photos",
+                "p": 32
+            },
+            {
+                "d": "Letters",
+                "p": 21
+            },
+            {
+                "d": "Clothes",
+                "p": 19
+            },
+            {
+                "d": "Books",
+                "p": 9
+            },
+            {
+                "d": "Reading Materal",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name a specific topping people put on yogurt.",
+        "keys": [
+            {
+                "d": "Strawberries",
+                "p": 54
+            },
+            {
+                "d": "Granola",
+                "p": 16
+            },
+            {
+                "d": "Chocolate",
+                "p": 8
+            },
+            {
+                "d": "Nuts",
+                "p": 6
+            },
+            {
+                "d": "Whipped cream",
+                "p": 5
+            },
+            {
+                "d": "Sprinkles",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a sporting event that only happens once a year.",
+        "keys": [
+            {
+                "d": "Superbowl",
+                "p": 61
+            },
+            {
+                "d": "Olympics",
+                "p": 13
+            },
+            {
+                "d": "World Series",
+                "p": 11
+            },
+            {
+                "d": "Grand Prix",
+                "p": 3
+            },
+            {
+                "d": "Wimbledon",
+                "p": 3
+            },
+            {
+                "d": "Stanley Cup",
+                "p": 3
+            },
+            {
+                "d": "Daytona 500",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something women do to their hair when they have a bad hair day.",
+        "keys": [
+            {
+                "d": "Hat",
+                "p": 38
+            },
+            {
+                "d": "Ponytail",
+                "p": 23
+            },
+            {
+                "d": "Hair Spray",
+                "p": 11
+            },
+            {
+                "d": "Wash Again",
+                "p": 10
+            },
+            {
+                "d": "Stylist",
+                "p": 7
+            },
+            {
+                "d": "Wig",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something you would find at a laundromat.",
+        "keys": [
+            {
+                "d": "Washing Machine",
+                "p": 51
+            },
+            {
+                "d": "Detergent",
+                "p": 21
+            },
+            {
+                "d": "Unclaimed Clothes",
+                "p": 8
+            },
+            {
+                "d": "Coins",
+                "p": 7
+            },
+            {
+                "d": "Dryer",
+                "p": 7
+            }
+        ]
+    },
+    {
+        "question": "Name something you would see in a cave.",
+        "keys": [
+            {
+                "d": "Bats",
+                "p": 48
+            },
+            {
+                "d": "Stalactites",
+                "p": 21
+            },
+            {
+                "d": "Bear",
+                "p": 11
+            },
+            {
+                "d": "Rocks",
+                "p": 5
+            },
+            {
+                "d": "Drawings",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something horses have that people don't.",
+        "keys": [
+            {
+                "d": "Tail",
+                "p": 45
+            },
+            {
+                "d": "Hooves",
+                "p": 35
+            },
+            {
+                "d": "Four Legs",
+                "p": 9
+            },
+            {
+                "d": "Mane",
+                "p": 4
+            },
+            {
+                "d": "Horseshoe",
+                "p": 3
+            },
+            {
+                "d": "Common Sense",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something in your house you might not want a Sumo wrestler using.",
+        "keys": [
+            {
+                "d": "Chair",
+                "p": 32
+            },
+            {
+                "d": "Toilet",
+                "p": 27
+            },
+            {
+                "d": "Sofa",
+                "p": 17
+            },
+            {
+                "d": "Floor",
+                "p": 8
+            },
+            {
+                "d": "Table",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name something the sheriff wears in a Western movie.",
+        "keys": [
+            {
+                "d": "Badge",
+                "p": 56
+            },
+            {
+                "d": "Cowboy Hat",
+                "p": 17
+            },
+            {
+                "d": "Holster",
+                "p": 9
+            },
+            {
+                "d": "Boots",
+                "p": 7
+            },
+            {
+                "d": "Chaps",
+                "p": 3
+            },
+            {
+                "d": "Belt Buckle",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something that beginning drivers frequently forget to do.",
+        "keys": [
+            {
+                "d": "Turn Signals",
+                "p": 38
+            },
+            {
+                "d": "Seat belt",
+                "p": 37
+            },
+            {
+                "d": "Stop at sign",
+                "p": 6
+            },
+            {
+                "d": "Use mirrors",
+                "p": 5
+            },
+            {
+                "d": "Turn Lights On",
+                "p": 5
+            },
+            {
+                "d": "Obey Speed Limit",
+                "p": 2
+            },
+            {
+                "d": "Release Emergency Break",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "What's the favorite food of most people in this country.",
+        "keys": [
+            {
+                "d": "Pizza",
+                "p": 42
+            },
+            {
+                "d": "Hamburger",
+                "p": 21
+            },
+            {
+                "d": "French Fries",
+                "p": 17
+            },
+            {
+                "d": "Steak",
+                "p": 6
+            },
+            {
+                "d": "Ice Cream",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "We asked 100 single woman: Name something you do to catch the eye of an attractive man who is not paying attention to you.",
+        "keys": [
+            {
+                "d": "Brush Against",
+                "p": 22
+            },
+            {
+                "d": "Talk To",
+                "p": 21
+            },
+            {
+                "d": "Smile",
+                "p": 17
+            },
+            {
+                "d": "Flirt",
+                "p": 11
+            },
+            {
+                "d": "Play With Hair",
+                "p": 6
+            },
+            {
+                "d": "Walk By",
+                "p": 6
+            },
+            {
+                "d": "Stare at",
+                "p": 5
+            },
+            {
+                "d": "Wink",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a food that might get pickled.",
+        "keys": [
+            {
+                "d": "Cucumbers",
+                "p": 57
+            },
+            {
+                "d": "Beets",
+                "p": 15
+            },
+            {
+                "d": "Eggs",
+                "p": 12
+            },
+            {
+                "d": "Herring",
+                "p": 5
+            },
+            {
+                "d": "Pig's Feet",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a job that requires a name tag.",
+        "keys": [
+            {
+                "d": "Waiter",
+                "p": 24
+            },
+            {
+                "d": "Cashier",
+                "p": 21
+            },
+            {
+                "d": "Nurse",
+                "p": 17
+            },
+            {
+                "d": "Police Officer",
+                "p": 12
+            },
+            {
+                "d": "Hotel",
+                "p": 7
+            },
+            {
+                "d": "Flight Attendant",
+                "p": 6
+            }
+        ]
+    },
+    {
+        "question": "Name a kind of animal you might see in a swamp.",
+        "keys": [
+            {
+                "d": "Alligator",
+                "p": 73
+            },
+            {
+                "d": "Frog",
+                "p": 10
+            },
+            {
+                "d": "Snake",
+                "p": 8
+            },
+            {
+                "d": "Crocodile",
+                "p": 5
+            },
+            {
+                "d": "Monster",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something a woman might want to keep hidden if she lies about her age.",
+        "keys": [
+            {
+                "d": "ID",
+                "p": 58
+            },
+            {
+                "d": "Birth Certificate",
+                "p": 13
+            },
+            {
+                "d": "Gray Hair",
+                "p": 8
+            },
+            {
+                "d": "Wrinkles",
+                "p": 7
+            },
+            {
+                "d": "Hands",
+                "p": 6
+            },
+            {
+                "d": "Kids",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name a good occupation if you are good at lying.",
+        "keys": [
+            {
+                "d": "Lawyer",
+                "p": 42
+            },
+            {
+                "d": "Sales",
+                "p": 19
+            },
+            {
+                "d": "Politician",
+                "p": 18
+            },
+            {
+                "d": "Comedian",
+                "p": 4
+            },
+            {
+                "d": "Private Eye",
+                "p": 4
+            },
+            {
+                "d": "Psychic",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name something most people open at least once a day.",
+        "keys": [
+            {
+                "d": "Door",
+                "p": 32
+            },
+            {
+                "d": "Refrigerator",
+                "p": 27
+            },
+            {
+                "d": "Mail",
+                "p": 25
+            },
+            {
+                "d": "Mouth",
+                "p": 6
+            },
+            {
+                "d": "Eyes",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name a state in America's New England.",
+        "keys": [
+            {
+                "d": "Maine",
+                "p": 28
+            },
+            {
+                "d": "Massachusetts",
+                "p": 26
+            },
+            {
+                "d": "Vermont",
+                "p": 14
+            },
+            {
+                "d": "Connecticut",
+                "p": 12
+            },
+            {
+                "d": "Rhode Island",
+                "p": 5
+            },
+            {
+                "d": "New Hampshire",
+                "p": 5
+            }
+        ]
+    },
+    {
+        "question": "Name something that some people just cannot hold onto.",
+        "keys": [
+            {
+                "d": "Money",
+                "p": 78
+            },
+            {
+                "d": "Job",
+                "p": 2
+            },
+            {
+                "d": "Hot Pan",
+                "p": 2
+            },
+            {
+                "d": "Love",
+                "p": 2
+            },
+            {
+                "d": "Soap",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "Name another word for \"small\".",
+        "keys": [
+            {
+                "d": "Tiny",
+                "p": 46
+            },
+            {
+                "d": "Little",
+                "p": 44
+            },
+            {
+                "d": "Mini",
+                "p": 4
+            },
+            {
+                "d": "Puny",
+                "p": 4
+            },
+            {
+                "d": "Petite",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "What is your favorite part of a wedding?",
+        "keys": [
+            {
+                "d": "Reception",
+                "p": 50
+            },
+            {
+                "d": "End",
+                "p": 19
+            },
+            {
+                "d": "Ceremony",
+                "p": 13
+            },
+            {
+                "d": "Kiss",
+                "p": 11
+            },
+            {
+                "d": "Bride",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "Name a country kids study in ancient history class.",
+        "keys": [
+            {
+                "d": "Egypt",
+                "p": 32
+            },
+            {
+                "d": "Greece",
+                "p": 27
+            },
+            {
+                "d": "Italy",
+                "p": 19
+            },
+            {
+                "d": "China",
+                "p": 8
+            },
+            {
+                "d": "Japan",
+                "p": 3
+            },
+            {
+                "d": "Mexico",
+                "p": 3
+            }
+        ]
+    },
+    {
+        "question": "Name something about Santa that kids wouldn't dare to make fun of.",
+        "keys": [
+            {
+                "d": "Big Belly",
+                "p": 56
+            },
+            {
+                "d": "Beard",
+                "p": 11
+            },
+            {
+                "d": "Gifts",
+                "p": 10
+            },
+            {
+                "d": "Costume",
+                "p": 7
+            },
+            {
+                "d": "Reindeer",
+                "p": 7
+            },
+            {
+                "d": "Wife",
+                "p": 2
+            }
+        ]
+    },
+    {
+        "question": "If you hired a gourmet chef to cook for you, name a complaint he might have about your kitchen.",
+        "keys": [
+            {
+                "d": "Small",
+                "p": 54
+            },
+            {
+                "d": "Pots and Pans",
+                "p": 14
+            },
+            {
+                "d": "Dirty",
+                "p": 10
+            },
+            {
+                "d": "Counterspace",
+                "p": 5
+            },
+            {
+                "d": "Stove",
+                "p": 4
+            }
+        ]
+    },
+    {
+        "question": "According to married women: Name something in your home your husband doesn't know how to clean.",
+        "keys": [
+            {
+                "d": "Toilet",
+                "p": 33
+            },
+            {
+                "d": "Bathtub",
+                "p": 26
+            },
+            {
+                "d": "Sink",
+                "p": 10
+            },
+            {
+                "d": "Oven",
+                "p": 9
+            },
+            {
+                "d": "Refrigerator",
+                "p": 8
+            },
+            {
+                "d": "Clothes",
+                "p": 6
+            }
+        ]
     }
 ]

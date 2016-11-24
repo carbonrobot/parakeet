@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Http, Response, Headers } from '@angular/http';
 import { Observable } from "rxjs";
 
-import { PuzzleService } from './puzzle.service';
+import { PuzzleService } from '../../shared/services/puzzle.service';
 import { Game } from '../models/game.model';
 
 @Injectable()

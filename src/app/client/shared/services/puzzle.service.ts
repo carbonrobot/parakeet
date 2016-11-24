@@ -12,4 +12,10 @@ export class PuzzleService {
             .map((response: Response) => response.json());
     }
 
+    public getPuzzleCount(): Promise<any> {
+        return this.http.get('/api/puzzle/count').toPromise().then((response) => {
+            return response.json().count;
+        });
+    }
+
 }

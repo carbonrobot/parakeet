@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { GameModule } from './game/game.module';
 
 import { DefaultPageComponent } from './default/default.component';
+import { PuzzleService } from './shared/services/puzzle.service';
 
 const routeConfig: Routes = [
     { path: '', component: DefaultPageComponent }
@@ -22,6 +23,9 @@ const routeConfig: Routes = [
     declarations: [
         AppComponent,
         DefaultPageComponent
+    ],
+    providers: [
+        PuzzleService
     ],
     bootstrap: [AppComponent]
 })

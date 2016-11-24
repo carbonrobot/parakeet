@@ -7,6 +7,11 @@ function getPuzzle(request, reply){
     return reply(test);
 }
 
+function getPuzzleCount(request, reply){
+    return reply({ count: puzzles.length });
+}
+
 module.exports = {
-    getPuzzle: getPuzzle
+    getPuzzle: getPuzzle,
+    getPuzzleCount: getPuzzleCount
 };

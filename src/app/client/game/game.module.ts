@@ -11,7 +11,7 @@ import { StrikesComponent } from './components/strikes.component';
 
 import { SocketService } from './services/socketio.service';
 import { GameService } from './services/game.service';
-import { PuzzleService } from './services/puzzle.service';
+import { PuzzleService } from '../shared/services/puzzle.service';
 
 const routeConfig: Routes = [
     { path: 'create', component: CreatePageComponent },
