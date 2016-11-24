@@ -13,16 +13,16 @@ import { Game } from '../models/game.model';
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-7 team-name">{{gameData.team1.name}}</div>
-                    <div class="col-xs-1 team-score">{{gameData.team1.score}}</div>
-                    <div class="col-xs-2 text-right"><strike-zone [team]="gameData.team1"></strike-zone></div>
-                    <div class="col-xs-2 text-right"><button type="button" class="btn btn-danger" (click)="strike(1)">XXX</button></div>
+                    <div class="col-xs-12 col-sm-6 team-name">{{gameData.team1.name}}</div>
+                    <div class="col-xs-3 col-sm-1 team-score">{{gameData.team1.score}}</div>
+                    <div class="col-xs-6 col-sm-3 text-right"><strike-zone [team]="gameData.team1"></strike-zone></div>
+                    <div class="col-xs-3 col-sm-2 text-right"><button type="button" class="btn btn-danger" (click)="strike(1)">XXX</button></div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-7 team-name">{{gameData.team2.name}}</div>
-                    <div class="col-xs-1 team-score">{{gameData.team2.score}}</div>
-                    <div class="col-xs-2 text-right"><strike-zone [team]="gameData.team2"></strike-zone></div>
-                    <div class="col-xs-2 text-right"><button type="button" class="btn btn-danger" (click)="strike(2)">XXX</button></div>
+                    <div class="col-xs-12 col-sm-6 team-name">{{gameData.team2.name}}</div>
+                    <div class="col-xs-3 col-sm-1 team-score">{{gameData.team2.score}}</div>
+                    <div class="col-xs-6 col-sm-3 text-right"><strike-zone [team]="gameData.team2"></strike-zone></div>
+                    <div class="col-xs-3 col-sm-2 text-right"><button type="button" class="btn btn-danger" (click)="strike(2)">XXX</button></div>
                 </div>
                 <div class="row">
                     <div class="col-sm-offset-9 col-sm-3 text-right"><a class="btn btn-info" (click)="newPuzzle()">New Puzzle</a></div>
@@ -35,9 +35,9 @@ import { Game } from '../models/game.model';
                 <div class="row">
                     <div *ngFor="let item of gameData.puzzle.keys let idx=index" class="col-sm-12">
                         <div class="row puzzle-box">
-                            <div class="col-xs-7 puzzle-answer">{{item.d}}</div>
-                            <div class="col-xs-1 puzzle-pct">{{item.p}}</div>
-                            <div class="col-xs-4 puzzle-actions">
+                            <div class="col-xs-12 col-sm-7 puzzle-answer">{{item.d}}</div>
+                            <div class="col-xs-2 col-sm-1 puzzle-pct">{{item.p}}</div>
+                            <div class="col-xs-10 col-sm-4 puzzle-actions">
                                 <button type="button" class="btn btn-default" (click)="select(idx, 1)" [disabled]="item.team === 1">Team 1</button>
                                 <button type="button" class="btn btn-default" (click)="select(idx, 2)" [disabled]="item.team === 2">Team 2</button>
                             </div>

@@ -8,12 +8,20 @@ import { SocketService } from '../services/socketio.service';
         <div *ngIf="gameData">
             <h1 class="cover-heading">{{gameData.team1.name}} VS {{gameData.team2.name}}</h1>
             <div class="container-fluid score-board">
-                <div class="row">
-                    <div class="col-xs-3 text-right"><strike-zone [team]="gameData.team1"></strike-zone></div>
-                    <div class="col-xs-2 team-score right">{{gameData.team1.score}}</div>
+                <div class="row hidden-xs">
+                    <div class="col-sm-3 text-right"><strike-zone [team]="gameData.team1"></strike-zone></div>
+                    <div class="col-sm-2 team-score right">{{gameData.team1.score}}</div>
+                    <div class="col-sm-2">&nbsp;</div>
+                    <div class="col-sm-2 team-score">{{gameData.team2.score}}</div>
+                    <div class="col-sm-3 text-left"><strike-zone [team]="gameData.team2"></strike-zone></div>
+                </div>
+                <div class="row visible-sm">
+                    <div class="col-xs-5 team-score right">{{gameData.team1.score}}</div>
                     <div class="col-xs-2">&nbsp;</div>
-                    <div class="col-xs-2 team-score">{{gameData.team2.score}}</div>
-                    <div class="col-xs-3 text-left"><strike-zone [team]="gameData.team2"></strike-zone></div>
+                    <div class="col-xs-5 team-score">{{gameData.team2.score}}</div>
+                    <div class="col-xs-5 text-right"><strike-zone [team]="gameData.team1"></strike-zone></div>
+                    <div class="col-xs-2">&nbsp;</div>
+                    <div class="col-xs-5 text-left"><strike-zone [team]="gameData.team2"></strike-zone></div>
                 </div>
             </div>
             
