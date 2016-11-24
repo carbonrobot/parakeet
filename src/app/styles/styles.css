@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #000;
 }
 body {
   color: #fff;
@@ -38,7 +38,6 @@ body {
 .borderless td, .borderless th {
     border: none !important;
 }
-.biggie { font-size: 42px; }
 
 /*
  * Tools
@@ -66,6 +65,9 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 30px;
+  z-index: 99;
+  position: relative;
+  background-color: #000;
 }
 
 /*
@@ -161,7 +163,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 900px;
   }
 }
 
@@ -169,8 +171,7 @@ body {
 Puzzle sheet
 */
 .puzzle-box {
-    height: 50px;
-    background: #4a6f52;
+    background: #286090;
     padding: 10px;
     margin: 5px 0;
     font-size: 1.5em;
@@ -183,16 +184,13 @@ Puzzle sheet
 }
 
 .puzzle-answer {
-    float: left;
+    text-align: left;
 }
 .puzzle-pct {
-    float: right;
-    width: 60px;
+    text-align: left;
 }
 .puzzle-actions {
-    float: right;
-    width: 200px;
-    margin-top: -2px;
+    text-align: right;
 }
 .puzzle-actions button {
     display: inline-block;
@@ -202,11 +200,11 @@ Puzzle sheet
  * Strike
  */
 .strike {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
 }
-.strike-zone {
-    width: 170px;
+.score-board {
+    margin: 20px 0;
 }
 
 /**
@@ -235,4 +233,13 @@ Puzzle sheet
     width: 720px;
     margin-left: -360px;
     margin-top: -130px;
+}
+
+.team-name, .team-score {
+    text-align: left;
+    font-size: 27px;
+}
+
+.team-score.right {
+    text-align: right;
 }

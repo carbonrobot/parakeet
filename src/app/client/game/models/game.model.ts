@@ -1,8 +1,8 @@
 export class Game {
 
     public key: string;
-    public team1: string;
-    public team2: string;
+    public team1: any;
+    public team2: any;
     public puzzle: any;
 
 }

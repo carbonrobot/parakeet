@@ -6,34 +6,25 @@ import { SocketService } from '../services/socketio.service';
     template: `
         <p *ngIf="!gameData">Waiting for Host to begin {{gameKey}}</p>
         <div *ngIf="gameData">
-            <h1 class="cover-heading">{{gameData.team1}} VS {{gameData.team2}}</h1>
-            <div class="table-responsive">
-                <table class="table borderless table-condensed">
-                    <tbody>
-                        <tr>
-                            <td class="strike-zone">
-                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team1.strikes >= 1" />
-                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team1.strikes >= 2" />
-                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team1.strikes >= 3" />
-                            </td>
-                            <td class="biggie">{{gameData.puzzle.team1.score}}</td>
-                            <td>&nbsp;</td>
-                            <td class="text-right biggie">{{gameData.puzzle.team2.score}}</td>
-                            <td class="text-right strike-zone">
-                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team2.strikes >= 1" />
-                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team2.strikes >= 2" />
-                                <img src="/public/strike.png" class="strike" *ngIf="gameData.puzzle.team2.strikes >= 3" />
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <h1 class="cover-heading">{{gameData.team1.name}} VS {{gameData.team2.name}}</h1>
+            <div class="container-fluid score-board">
+                <div class="row">
+                    <div class="col-xs-3 text-right"><strike-zone [team]="gameData.team1"></strike-zone></div>
+                    <div class="col-xs-2 team-score right">{{gameData.team1.score}}</div>
+                    <div class="col-xs-2">&nbsp;</div>
+                    <div class="col-xs-2 team-score">{{gameData.team2.score}}</div>
+                    <div class="col-xs-3 text-left"><strike-zone [team]="gameData.team2"></strike-zone></div>
+                </div>
             </div>
+            
             <div class="container-fluid">
                 <p class="lead">{{gameData.puzzle.question}}</p>
                 <div class="row">
-                    <div *ngFor="let item of gameData.puzzle.keys let idx=index" class="col-sm-6 puzzle-box">
-                        <div class="puzzle-answer"><span *ngIf="item.team">{{item.d}}</span>&nbsp;</div>
-                        <div class="puzzle-pct"><span *ngIf="item.team">{{item.p}}</span>&nbsp;</div>
+                    <div *ngFor="let item of gameData.puzzle.keys let idx=index" class="col-sm-6">
+                        <div class="row puzzle-box">
+                            <div class="col-xs-10 puzzle-answer"><span *ngIf="item.team">{{item.d}}</span>&nbsp;</div>
+                            <div class="col-xs-2 puzzle-pct"><span *ngIf="item.team">{{item.p}}</span>&nbsp;</div>
+                        </div>
                     </div>
                 </div>
             </div>

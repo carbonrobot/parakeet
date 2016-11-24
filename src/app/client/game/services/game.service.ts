@@ -16,21 +16,15 @@ export class GameService {
         const gameData: Game = new Game();
 
         // TODO: we should confirm this is not already used by another host
-        // TODO: we should be able to keep a running score across multiple puzzles
         gameData.key = this.generateKey();
-        gameData.team1 = team1;
-        gameData.team2 = team2;
+        gameData.team1 = { name: team1, strikes: 0, score: 0 };
+        gameData.team2 = { name: team2, strikes: 0, score: 0 };
 
         this.data = gameData;
     }
 
     public getNewPuzzle() {
         return this.service.getPuzzle().toPromise().then(data => {
-            
-            // puzzle scoring
-            data.team1 = { strikes: 0, score: 0 };
-            data.team2 = { strikes: 0, score: 0 };
-
             this.data.puzzle = data;
         });
     }

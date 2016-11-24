@@ -7,6 +7,7 @@ import { CreatePageComponent } from './components/create.component';
 import { JoinPageComponent } from './components/join.component';
 import { HostPageComponent } from './components/host.component';
 import { PlayerPageComponent } from './components/player.component';
+import { StrikesComponent } from './components/strikes.component';
 
 import { SocketService } from './services/socketio.service';
 import { GameService } from './services/game.service';
@@ -29,7 +30,8 @@ const routeConfig: Routes = [
         CreatePageComponent,
         JoinPageComponent,
         HostPageComponent,
-        PlayerPageComponent
+        PlayerPageComponent,
+        StrikesComponent
     ],
     providers: [
         SocketService,
